@@ -1,84 +1,83 @@
-# 🛡️ CYBERFORGE — 3D Red Team Academy & Interactive Learning Platform
+# 🛡️ CYBERFORGE — 3D Red Team Academy & Operations Roadmap
 
 <p align="center">
   <img src="https://img.shields.io/badge/CyberForge-3D%20Red%20Team%20Academy-00f3ff?style=for-the-badge&logo=shield&logoColor=white" alt="CyberForge 3D Academy"/>
   <img src="https://img.shields.io/badge/Three.js-WebGL-black?style=for-the-badge&logo=three.js&logoColor=white" alt="Three.js"/>
   <img src="https://img.shields.io/badge/React-18-blue?style=for-the-badge&logo=react&logoColor=white" alt="React"/>
   <img src="https://img.shields.io/badge/TailwindCSS-v3-38bdf8?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="Tailwind"/>
-  <img src="https://img.shields.io/badge/Status-Live%20Ready-00ff88?style=for-the-badge" alt="Status"/>
+  <img src="https://img.shields.io/badge/Stages-20%20Comprehensive-red?style=for-the-badge" alt="Stages"/>
+  <img src="https://img.shields.io/badge/Deployment-GitHub%20Pages%20Live-00ff88?style=for-the-badge&logo=githubpages&logoColor=white" alt="Live"/>
+</p>
+
+<p align="center">
+  🌐 <b>المنصة متاحة الآن لايف أونلاين:</b><br/>
+  <a href="https://mahmoudsalman158.github.io/CyberForge-RedTeam-Roadmap/">
+    <b>https://mahmoudsalman158.github.io/CyberForge-RedTeam-Roadmap/</b>
+  </a>
 </p>
 
 ---
 
-## 🌟 نظرة عامة على المنصة (Project Vision)
+## 🌟 نظرة عامة على المنصة (Project Overview)
 
-منصة **CyberForge 3D Red Team Academy** ليست مجرد موقع أو رود ماب عادية، بل هي **أكاديمية وعالم سيبراني تفاعلي ثلاثي الأبعاد بالكامل** مبني بأحدث تقنيات الويب ثلاثي الأبعاد (`Three.js`, `WebGL`, `React`, `Tailwind CSS`).
+منصة **CyberForge: 3D Red Team Academy** هي بيئة تعليمية ومحاكاة عمليات سيبرانية تفاعلية ثلاثية الأبعاد بالكامل، صُممت كمنظومة متقدمة لمشروع التخرج بهدف سد الفجوة بين التعليم الأكاديمي النظري والتطبيق العملي الواقعي في مجالات **اختبار الاختراق المتقدم (Advanced Penetration Testing) وعمليات محاكاة الخصوم (Adversary Emulation & Red Teaming)**.
 
-تم تصميم المنصة لتأخذ المتعلمة (رقية وسام وكل باحث في مجال اختبار الاختراق) في **رحلة تفاعلية متكاملة (Interactive Cyber Journey)** عبر شخصية ثلاثية الأبعاد تفاعلية (**3D Female Cyber Operative Avatar**) تتحرك عبر **18 محطة وميداناً تكتيكياً**، وتغطي المسار من الصفر المطلق وحتى احتراف عمليات الريد تيم المتقدمة (Red Team Operations & Adversary Emulation).
-
----
-
-## 🎮 المكونات الرئيسية للمنصة
-
-### 1. العالم ثلاثي الأبعاد والأفاتار التفاعلية (`CyberWorld3D.jsx` + `CharacterModel.js`)
-* **موديل ثلاثي الأبعاد كامل للأفاتار:** مجسم أنثوي تكتيكي عالي التفاصيل بدرع سيبراني، خوذة ذكية (Cyber Visor)، جهاز هولوجرام على المعصم، وطائرة مرافقة (Cyber Drone Companion).
-* **نظام تحريك ديناميكي:** حركات تنفس (Idle)، مشي وركض طبيعي (Walk/Run)، كتابة هولوجرامية عند فتح المحطات (Hacking Pose).
-* **تحكم مرن:**
-  * **Click-to-Move:** انقر على أي محطة لتتحرك الأفاتار بسلاسة وتتجه نحوها.
-  * **WASD / الأسهم:** تحكم يدوي حر في حركة الشخصية داخل العالم.
-  * **وضعي كاميرا:** منظور الشخص الثالث (Third-Person Follow Cam) أو الرؤية التكتيكية الشاملة (Tactical Orbit Cam).
-
-### 2. المنهج التعليمي المتعمق — 18 محطة تكتيكية (`stagesData.js`)
-تم تقسيم المنهج إلى **8 مناطق تكتيكية (Themed Zones)** تضم **18 محطة تفصيلية لا تحتوي على أي اختصار سطحي**:
-1. **قلعة التأسيس السيبراني (Foundations Citadel):**
-   * المرحلة 1: مدخل الأمن السيبراني والأخلاقيات وقوانين الـ Red Team وثالوث CIA.
-   * المرحلة 2: معمارية الحاسب وسجلات المعالج (Registers) ومخططات الذاكرة (Stack vs Heap).
-   * المرحلة 3: بروتوكولات الشبكات، نموذج OSI، المصافحة الثلاثية (3-Way Handshake)، وتحليل الحزم بـ Wireshark.
-2. **برج اللينكس والمختبرات الافتراضية (Terminal & Virtual Spire):**
-   * المرحلة 4: احتراف لينكس، شجرة الملفات، الصلاحيات، SUID، والبرمجة بالباش (Bash Scripting).
-   * المرحلة 5: معمارية المختبرات الافتراضية وعزل الشبكات (Type-1 vs Type-2 Hypervisors, NAT vs Host-Only).
-   * المرحلة 6: التثبيت والتسليح الشامل لكالي لينكس (Bare Metal vs VM, Guest Additions, Repositories, Hardening).
-3. **مخفر الاستطلاع والاستخبارات (Recon & Intelligence Outpost):**
-   * المرحلة 7: الاستطلاع السلبي (OSINT) والنشط، واحتراف Nmap ومحرك سكربتات NSE ومحركات Shodan.
-4. **حي أمن الويب والواجهات البرمجية (Web Security Neon District):**
-   * المرحلة 8: معمارية الويب، ترويسات HTTP، الكوكيز، الجلسات، وتوكنز JWT، وأمن REST APIs.
-   * المرحلة 9: الغوص العميق في ثغرات OWASP Top 10 (SQLi, XSS, IDOR, SSRF, CSRF, RCE) مع مقارنة الكود المصاب بالمرقع.
-   * المرحلة 10: احتراف أداة Burp Suite (Proxy, Repeater, Intruder, Match & Replace, Extensions).
-5. **ساحات التحدي والقتال العملي (Colosseum of Cyber Combat):**
-   * المرحلة 11: مسارات التدريب المنهجي على TryHackMe (مسار Jr Penetration Tester خطوة بخطوة).
-   * المرحلة 12: تحديات Hack The Box وماكينات Starting Point ومنهجيات الـ CTF.
-6. **حصن أكتيف دايركتوري وتصعيد الصلاحيات (AD & Escalation Fortress):**
-   * المرحلة 13: معمارية Active Directory، بروتوكول Kerberos، رسم المسارات بـ BloodHound، وهجمات Roasting.
-   * المرحلة 14: تصعيد الصلاحيات في ويندوز (Unquoted Service Paths, SeImpersonatePrivilege, WinPEAS).
-   * المرحلة 15: تصعيد الصلاحيات في لينكس (Sudo Rights, GTFOBins, Capabilities, Kernel Exploits, LinPEAS).
-7. **ميدان معارك الريد تيم (Red Team Warfare & C2 Operations):**
-   * المرحلة 16: محاكاة الخصوم المتقدمين، مصفوفة MITRE ATT&CK، خوادم القيادة والسيطرة (C2: Sliver & Havoc)، وهجمات SCADA/ICS.
-8. **غرفة العمليات وكتابة التقارير (War Room & Executive Reporting):**
-   * المرحلة 17: تقييم مخاطر الثغرات بنظام CVSS 3.1 & 4.0 وخطط الترقيع الهندسية (Remediation).
-   * المرحلة 18: كتابة تقرير اختبار الاختراق الاحترافي (Executive Summary + Technical PoCs) ونصائح العرض الحي (Live Demo).
-
-### 3. المختبرات التفاعلية والأدوات المدمجة
-* **محاكي التيرمينال الحي (`InteractiveTerminal.jsx`):** تيرمينال كالي لينكس تفاعلي ينفذ أوامر `nmap`, `sqlmap`, `curl`, `whoami`, `ifconfig`, `scada-check` مع مخرجات واقعية ملونة.
-* **معمل الثغرات OWASP Playground (`PayloadPlayground.jsx`):** تجربة حية لحقن الـ Payloads، استعراض ردود الخادم الافتراضية، ومقارنة الكود المصاب بالكود الآمن جنباً إلى جنب.
-* **حاسبة CVSS 3.1 ومولد التقارير (`PentestReportBuilder.jsx`):** حاسبة معيارية للمقاييس (Attack Vector, Complexity, Impact) مع تصدير تقرير اختبار اختراق مهني بصيغة Markdown جاهزة للمناقشة.
-* **بنية التحديث التلقائي للمصادر (`LiveFeedUpdater.jsx`):** ربط المنصة بمصادر التوثيق الرسمية لـ OWASP, MITRE ATT&CK, Kali Linux, TryHackMe, NIST لمنع تقادم المعلومات وتحديثها بضغطة زر.
-* **مؤثرات صوتية سيبرانية (`AudioSynthesizer.js`):** محرك أصوات تفاعلية مدمج يعمل عبر Web Audio API دون أي ملفات خارجية.
-* **نظام التقدّم وحفظ الإنجازات:** حفظ علامات التحقق (Checklists) في `localStorage` مع احتساب نقاط الخبرة (XP) ومستوى الرتبة التكتيكية (Level 1 Novice -> Level 18 Apex Operative).
+تعتمد المنصة على دمج أحدث تقنيات الويب الرسومي (`Three.js`, `WebGL`, `React 18`, `Tailwind CSS`) لبناء عالم افتراضي ثلاثي الأبعاد يتحكم فيه المستخدم بشخصية عملياتية تفاعلية (Operative Avatar) تتنقل عبر **20 محطة وميداناً تكتيكياً** تغطي كافة مراحل الهجوم والدفاع من الصفر وحتى عرش الجراندمستر.
 
 ---
 
-## 🚀 تشغيل المنصة محلياً
+## 🎮 المكونات والمميزات التقنية الرئيسية
 
-المنصة تعمل ومبنية بالكامل! لتشغيلها في أي وقت:
+### 1. العالم ثلاثي الأبعاد والشخصيات التفاعلية (3D Cyber World)
+* **تخصيص كامل للشخصيات:** إمكانية التبديل بين الشخصيات التكتيكية (Male & Female Operatives) مع حركات فيزيائية واقعية (Idle, Walk, Run, Crawl).
+* **خريطة رادار مصغرة (GTA-Style Minimap):** خريطة تفاعلية لتتبع موقع اللاعب والمحطات والعوائق في الوقت الحقيقي.
+* **أنماط تحكم مزدوجة:** حرية الحركة عبر لوحة المفاتيح (`WASD` / الأسهم) أو التوجيه الذكي بالنقر المباشر (`Click-to-Move`).
+* **مؤثرات صوتية وموسيقى سيبرانية تفاعلية:** محرك توليد صوتي مدمج يعمل عبر `Web Audio API`.
 
-```bash
-cd "E:\roudmap for Red Teamer"
-npm run dev
-```
+### 2. المنهج التكتيكي المتكامل — 20 مرحلة تخصصية
+تم بناء المحتوى الأكاديمي والعملي ليتوافق مع المعايير الدولية والشهادات العالمية (مثل `eJPTv2`, `OSCP`, `CRTO`, و `MITRE ATT&CK`):
+1. **قلعة التأسيس السيبراني:** الأخلاقيات وقواعد الاشتباك (RoE)، معمارية الذاكرة وثغرات Buffer Overflow، والتحليل الجنائي لحزم الشبكة (Wireshark).
+2. **برج اللينكس والمختبرات الافتراضية:** احتراف سطر الأوامر وصلاحيات SUID، تأمين المختبرات الافتراضية وشبكات VLAN، وتثبيت وتأمين نظام كالي لينكس.
+3. **مخفر الاستطلاع وفحص الشبكات:** تقنيات Nmap المتقدمة، مسح الخدمات، واستكشاف ثغرات البروتوكولات.
+4. **حي أمن الويب والواجهات البرمجية:** أمن REST APIs، ثغرات OWASP Top 10 (SQLi, XSS, SSRF, IDOR)، واحتراف أداة Burp Suite وثغرات Race Conditions.
+5. **ساحات التحدي والقتال العملي:** محطات تطبيقية تفاعلية تحاكي مسارات TryHackMe و Hack The Box.
+6. **حصن أكتيف دايركتوري وتصعيد الصلاحيات:** استغلال هجمات Kerberos (Kerberoasting, AS-REP)، تصعيد صلاحيات Windows (Token Impersonation, GodPotato)، وتصعيد صلاحيات Linux (Capabilities, Sudo).
+7. **ميدان معارك الريد تيم والتنقل الشبكي:** تقنيات القفز الداخلي (Pivoting via Chisel & Ligolo-ng)، وأطر القيادة والسيطرة (Sliver C2 & Havoc).
+8. **غرفة العمليات وكتابة التقارير:** معايير تقييم المخاطر CVSS 3.1 & 4.0 و EPSS، وكتابة تقارير اختبار الاختراق التنفيذية المعتمدة وفق معايير CREST و SANS.
+9. **واحة السحابة والحاويات الرقمية (Cloud Security):** استغلال IAM Policies في AWS/Azure، هجمات IMDSv2، والهروب من Docker Containers.
+10. **عرش الجراندمستر ومراوغة الـ EDR:** محاكاة الهجوم الشامل (Full Kill-Chain)، تجاوز حماية AMSI، تقنيات Process Injection، وكسر آليات الرصد الحديثة.
 
-ثم افتح المتصفح على:
-**http://localhost:3000**
+### 3. التوثيق العملي وأسرار التجارة (Writeups & Secret Tradecraft)
+* **رايت أب تفصيلي لكل مرحلة (20/20):** خطوات عملية واقعية بالأوامر والـ Payloads، مصحوبة بآليات الكشف لفرق الدفاع والـ SOC (سجلات Windows Event IDs، أحداث Sysmon، وقواعد auditd و Falco و Zeek).
+* **بطاقات أسرار الريد تيم:** أسرار وتقنيات متقدمة لتجاوز رصد الـ EDR وتشفير الذاكرة أثناء وضع السكون (Sleep Obfuscation).
+
+### 4. الأدوات التفاعلية المدمجة
+* **محاكي التيرمينال السيبراني (Interactive Terminal):** تنفيذ أوامر واقعية لاختبار الأدوات وفحص الشبكات افتراضياً.
+* **معمل الـ Payloads التفاعلي (Payload Playground):** تجربة حية لحقن الثغرات ومقارنة الكود المصاب بالكود الآمن.
+* **مولد التقارير وحاسبة CVSS:** بناء تقارير اختبار اختراق مهنية وتصديرها بصيغة Markdown/PDF بضغطة زر.
 
 ---
 
-*CyberForge Red Team Academy © 2026 — مصممة بكل فخر لرحلة التميز في الأمن السيبراني واختبار الاختراق.*
+## 🛠️ التقنيات المستخدمة (Tech Stack)
+
+* **Frontend Framework:** React 18
+* **3D Graphics & Rendering:** Three.js / WebGL
+* **Styling & Design System:** Tailwind CSS, Lucide React Icons
+* **Build Tool:** Vite
+* **CI/CD & Deployment:** GitHub Actions + GitHub Pages
+
+---
+
+## 👨‍💻 التطوير وهندسة المنصة (Author & Credits)
+
+تم تصميم وتطوير هذه المنصة بالكامل كأحد مشاريع التخرج المتميزة في مجال الأمن السيبراني:
+
+* **تطوير وهندسة برمجية:** **محمود سلمان (Mahmoud Salman)**
+* **حساب جيت هاب:** [@mahmoudsalman158](https://github.com/mahmoudsalman158)
+* **المستودع الرسمي:** [CyberForge-RedTeam-Roadmap](https://github.com/mahmoudsalman158/CyberForge-RedTeam-Roadmap)
+
+---
+
+<p align="center">
+  <sub>CyberForge 3D Red Team Academy © 2026 — Advanced Interactive Cybersecurity Simulation Platform</sub>
+</p>
