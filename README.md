@@ -6,14 +6,6 @@
   <img src="https://img.shields.io/badge/React-18-blue?style=for-the-badge&logo=react&logoColor=white" alt="React"/>
   <img src="https://img.shields.io/badge/TailwindCSS-v3-38bdf8?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="Tailwind"/>
   <img src="https://img.shields.io/badge/Stages-20%20Comprehensive-red?style=for-the-badge" alt="Stages"/>
-  <img src="https://img.shields.io/badge/Deployment-GitHub%20Pages%20Live-00ff88?style=for-the-badge&logo=githubpages&logoColor=white" alt="Live"/>
-</p>
-
-<p align="center">
-  🌐 <b>المنصة متاحة الآن لايف أونلاين:</b><br/>
-  <a href="https://mahmoudsalman158.github.io/CyberForge-RedTeam-Roadmap/">
-    <b>https://mahmoudsalman158.github.io/CyberForge-RedTeam-Roadmap/</b>
-  </a>
 </p>
 
 ---
@@ -73,8 +65,6 @@
 تم تصميم وتطوير هذه المنصة بالكامل كأحد مشاريع التخرج المتميزة في مجال الأمن السيبراني:
 
 * **تطوير وهندسة برمجية:** **محمود سلمان (Mahmoud Salman)**
-* **حساب جيت هاب:** [@mahmoudsalman158](https://github.com/mahmoudsalman158)
-* **المستودع الرسمي:** [CyberForge-RedTeam-Roadmap](https://github.com/mahmoudsalman158/CyberForge-RedTeam-Roadmap)
 
 ---
 
