@@ -666,40 +666,85 @@ export default function MilestoneModal({
           {/* TAB 6: TRYHACKME & HTB */}
           {activeTab === 'labs' && (
             <div className="space-y-5 animate-fade-in">
-              <div className="pb-3 border-b border-slate-800">
-                <h3 className="text-lg md:text-xl font-black text-white flex items-center gap-2">
-                  <Trophy className="w-5 h-5 text-amber-400" />
-                  <span>غرف التطبيق العملي المعتمدة (TryHackMe & Hack The Box)</span>
-                </h3>
-                <p className="text-sm text-slate-400 mt-1">
-                  روابط مباشرة لغرف تدريب معتمدة ومطابقة لمحتوى هذه المحطة تحديداً.
-                </p>
+              <div className="pb-3 border-b border-slate-800 flex flex-col md:flex-row md:items-center justify-between gap-3">
+                <div>
+                  <h3 className="text-lg md:text-xl font-black text-white flex items-center gap-2">
+                    <Trophy className="w-5 h-5 text-amber-400" />
+                    <span>غرف ومعامل التطبيق العملي المجانية 100% (Verified Free Labs)</span>
+                  </h3>
+                  <p className="text-sm text-slate-400 mt-1">
+                    جميع الغرف والمعامل التالية تم فحصها والتأكد من أنها مجانية ومفتوحة بالكامل مع شرح تفصيلي لفائدتها العلمية والعملية وللمشروع.
+                  </p>
+                </div>
+                <div className="flex flex-wrap items-center gap-2 shrink-0">
+                  <span className="px-3 py-1.5 rounded-xl bg-emerald-950/80 border border-emerald-500/40 text-emerald-400 text-xs font-bold">
+                    ✅ جميع الرومات مجانية ومفحوصة 100%
+                  </span>
+                  <a
+                    href={`${import.meta.env.BASE_URL}CyberForge_Free_Rooms_Study_Guide.pdf`}
+                    target="_blank"
+                    rel="noreferrer"
+                    className="px-3.5 py-1.5 rounded-xl bg-cyan-500/20 hover:bg-cyan-500 hover:text-black border border-cyan-500/40 text-cyan-300 text-xs font-extrabold transition-all flex items-center gap-1.5"
+                  >
+                    <span>📄 تحميل دليل المذاكرة الشامل (PDF)</span>
+                    <ExternalLink className="w-3.5 h-3.5" />
+                  </a>
+                </div>
               </div>
 
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
+              <div className="grid grid-cols-1 gap-5">
                 {stage.tryHackMeRooms.map((room, idx) => (
                   <div
                     key={idx}
-                    className="p-5 md:p-6 bg-slate-900/80 border border-slate-800 rounded-2xl flex flex-col justify-between gap-4 hover:border-cyan-500/40 transition-all shadow-xl"
+                    className="p-5 md:p-6 bg-slate-900/85 border border-slate-800 rounded-2xl flex flex-col justify-between gap-4 hover:border-cyan-500/40 transition-all shadow-xl"
                   >
-                    <div>
-                      <div className="flex items-center justify-between mb-2.5">
-                        <span className="text-xs font-mono px-2.5 py-1 rounded-lg bg-cyan-950 text-cyan-400 font-extrabold border border-cyan-500/30">
-                          {room.difficulty}
+                    <div className="space-y-3">
+                      <div className="flex flex-wrap items-center justify-between gap-2">
+                        <div className="flex items-center gap-2">
+                          <span className="text-xs font-mono px-2.5 py-1 rounded-lg bg-cyan-950 text-cyan-400 font-extrabold border border-cyan-500/30">
+                            {room.difficulty}
+                          </span>
+                          <span className="text-xs px-2.5 py-1 rounded-lg bg-emerald-950/80 text-emerald-400 font-bold border border-emerald-500/30">
+                            ✅ مجانية ومفتوحة للتجربة
+                          </span>
+                        </div>
+                        <span className="text-xs font-mono text-amber-400 font-bold bg-amber-950/40 px-2.5 py-1 rounded-lg border border-amber-500/30">
+                          {room.platform || 'TryHackMe Free Room'}
                         </span>
-                        <span className="text-xs font-mono text-slate-400 font-bold">TryHackMe Room</span>
                       </div>
-                      <h4 className="font-black text-white text-base md:text-lg leading-snug">{room.name}</h4>
-                      <p className="text-sm text-slate-300 mt-2.5 leading-relaxed">{room.whyMatters}</p>
+
+                      <h4 className="font-black text-white text-lg md:text-xl leading-snug">{room.name}</h4>
+                      <p className="text-sm md:text-base text-slate-200 leading-relaxed font-semibold">{room.whyMatters}</p>
+
+                      {room.whatIsIt && (
+                        <div className="grid grid-cols-1 md:grid-cols-2 gap-3 pt-2">
+                          <div className="p-3.5 rounded-xl bg-slate-950/80 border border-slate-800/90 space-y-1">
+                            <div className="text-xs font-extrabold text-cyan-400">💡 الروم دي بتاعت إيه (بالبلدي)؟</div>
+                            <p className="text-xs md:text-sm text-slate-300 leading-relaxed">{room.whatIsIt}</p>
+                          </div>
+                          <div className="p-3.5 rounded-xl bg-slate-950/80 border border-slate-800/90 space-y-1">
+                            <div className="text-xs font-extrabold text-emerald-400">📘 إيه فايدتها في التعلم؟</div>
+                            <p className="text-xs md:text-sm text-slate-300 leading-relaxed">{room.learningBenefit}</p>
+                          </div>
+                          <div className="p-3.5 rounded-xl bg-slate-950/80 border border-slate-800/90 space-y-1">
+                            <div className="text-xs font-extrabold text-amber-400">🚀 الفايدة والمهارة اللي هتحصل عليها:</div>
+                            <p className="text-xs md:text-sm text-slate-300 leading-relaxed">{room.skillGained}</p>
+                          </div>
+                          <div className="p-3.5 rounded-xl bg-slate-950/80 border border-slate-800/90 space-y-1">
+                            <div className="text-xs font-extrabold text-purple-400">🎓 الفايدة العايدة على مشروع التخرج:</div>
+                            <p className="text-xs md:text-sm text-slate-300 leading-relaxed">{room.projectBenefit}</p>
+                          </div>
+                        </div>
+                      )}
                     </div>
 
                     <a
                       href={room.url}
                       target="_blank"
                       rel="noreferrer"
-                      className="flex items-center justify-center gap-2 w-full py-2.5 bg-slate-800 hover:bg-cyan-500 hover:text-black text-cyan-300 font-bold rounded-xl transition-all text-sm shadow-md"
+                      className="flex items-center justify-center gap-2 w-full py-3 bg-cyan-500/15 hover:bg-cyan-500 hover:text-black text-cyan-300 border border-cyan-500/30 font-extrabold rounded-xl transition-all text-sm shadow-md"
                     >
-                      <span>فتح الغرفة على TryHackMe</span>
+                      <span>فتح المعمل المجاني مباشرة ({room.url})</span>
                       <ExternalLink className="w-4 h-4" />
                     </a>
                   </div>

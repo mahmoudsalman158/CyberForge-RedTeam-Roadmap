@@ -102,8 +102,39 @@ Contact: soc-emergency@enterprise.lab | +1-800-555-0199`,
       }
     ],
     tryHackMeRooms: [
-      { name: 'Intro to Ethical Hacking', url: 'https://tryhackme.com/r/room/introtoethicalhacking', difficulty: 'Easy', whyMatters: 'يعطيك الانطلاقة الأولى لفهم أخلاقيات المجال وثالوث الأمان وقوانين الحماية.' },
-      { name: 'Careers in Cyber', url: 'https://tryhackme.com/r/room/careersincyber', difficulty: 'Easy', whyMatters: 'يشرح الأدوار الوظيفية المختلفة ومسارات الترقي في الريد تيم والبلو تيم وسوق العمل.' }
+          {
+                "name": "Offensive Security Intro (مدخل الأمن الهجومي)",
+                "platform": "TryHackMe (مجانية 100%)",
+                "url": "https://tryhackme.com/room/offensivesecurityintro",
+                "difficulty": "Easy — مجانية",
+                "whyMatters": "أول خطوة عملية لك في عالم الاختراق الأخلاقي؛ تقوم فيها باختراق أول موقع تجريبي لك باستخدام أداة Gobuster داخل المتصفح مجاناً.",
+                "whatIsIt": "روم تمهيدية مجانية بتفتح لك ماكينة وهمية لموقع بنكي مزيف، وبتخليك تجرب بإيدك إزاي تلاقي صفحة تحويل أموال مخفية عن طريق تخمين المسارات (Directory Brute-Force) وتنفذ أول عملية اختراق أخلاقي في حياتك.",
+                "learningBenefit": "بتعلمك الفرق الحقيقي بين الهكر الأخلاقي (White Hat) والمخترق غير القانوني، وبتفهمك إزاي المخترق بيفكر لما يدخل على موقع لأول مرة ويدور على الصفحات اللي المبرمج نسي يحميها.",
+                "skillGained": "هتكسر رهبة البداية تماماً، وهتعرف تشغل سطر الأوامر (Terminal) وتستخدم أداة Gobuster لاكتشاف المجلدات السرية على أي موقع ويب مستهدف.",
+                "projectBenefit": "بتديك الأساس النظري والعملي لشرح \"فلسفة الأمن الهجومي وقواعد الاشتباك\" في المرحلة الأولى من مشروع التخرج أمام لجنة المناقشة بثقة كاملة."
+          },
+          {
+                "name": "Pentesting Fundamentals (أساسيات ومراحل اختبار الاختراق)",
+                "platform": "TryHackMe (مجانية 100%)",
+                "url": "https://tryhackme.com/room/pentestingfundamentals",
+                "difficulty": "Easy — مجانية",
+                "whyMatters": "شرح تفاعلي لقواعد الاشتباك (RoE) وأنواع الاختبار (Black/Grey/White Box) ومراحل اختبار الاختراق المعتمدة دولياً.",
+                "whatIsIt": "روم بتشرح لك \"قوانين اللعبة\" قبل ما تبدأ تهكر أي شركة؛ يعني إيه عقد رسمي (Rules of Engagement)، وإيه الفرق لما تختبر شركة وأنت مش معاك أي معلومة (Black Box) أو معاك الكود المصدري (White Box).",
+                "learningBenefit": "بتفهمك الـ 5 مراحل القياسية لأي عملية اختبار اختراق في العالم (جمع المعلومات، الفحص، الاستغلال، ما بعد الاستغلال، وكتابة التقرير) وفق معايير PTES و NIST.",
+                "skillGained": "هتتعلم إزاي تخطط لعملية اختبار اختراق منظمة خطوة بخطوة بدل العشوائية، وإزاي تحمي نفسك قانونياً قبل لمس أي سيرفر.",
+                "projectBenefit": "مهمة جداً في مشروع التخرج لأنها بتوضح للجنة إن المنصة مبنية على منهجية علمية وقانونية معتمدة وليست مجرد تجميع أدوات اختراق."
+          },
+          {
+                "name": "Red Team Fundamentals (مدخل عمليات الريد تيم)",
+                "platform": "TryHackMe (مجانية 100%)",
+                "url": "https://tryhackme.com/room/redteamfundamentals",
+                "difficulty": "Easy — مجانية",
+                "whyMatters": "توضح الفرق الجوهري بين مختبر الاختراق العادي (Pentester) وفريق الريد تيم (Red Team) الذي يحاكي هجمات عصابات الـ APT.",
+                "whatIsIt": "روم بتوضح لك بالبلدي ليه الشركات الكبيرة والبنوك بتجيب \"فريق ريد تيم\" مش بس مختبر اختراق عادي، وإزاي الريد تيم بيحاكي هجوم حقيقي صامت عشان يختبر صحيان فريق الدفاع (Blue Team / SOC).",
+                "learningBenefit": "بتعرفك على مصطلحات الريد تيم الأساسية: التكتيكات والتقنيات والإجراءات (TTPs)، وخلايا القيادة والسيطرة (Red Team Engagement Cells).",
+                "skillGained": "هتقدر تفرق بدقة بين Vulnerability Assessment و Penetration Testing و Red Team Adversary Emulation.",
+                "projectBenefit": "تمثل العمود الفقري لفكرة مشروع التخرج بالكامل، لأن المشروع اسمه CyberForge Red Team Academy؛ ففهمك للروم دي بيخليك تشرح رؤية المشروع ببراعة."
+          }
     ],
     writeup: {
       title: 'اتفاقية اختبار اختراق معتمدة وتحديد قواعد الاشتباك (Rules of Engagement Case Study)',
@@ -276,8 +307,39 @@ student     1205    1200  0 08:30 pts/0    00:00:00      \\_ -bash`,
       }
     ],
     tryHackMeRooms: [
-      { name: 'Windows Internals', url: 'https://tryhackme.com/r/room/windowsinternals', difficulty: 'Medium', whyMatters: 'شرح معمق لـ Processes, Threads, Handles, PE Headers ومستويات الصلاحيات.' },
-      { name: 'Intro to x86-64', url: 'https://tryhackme.com/r/room/introtox8664', difficulty: 'Medium', whyMatters: 'أساسيات الأسمبلي وسجلات المعالج اللازمة لعكس البرمجيات وتخطي الحمايات.' }
+          {
+                "name": "Gatekeeper (استغلال Buffer Overflow في ويندوز)",
+                "platform": "TryHackMe (مجانية 100%)",
+                "url": "https://tryhackme.com/room/gatekeeper",
+                "difficulty": "Medium — مجانية",
+                "whyMatters": "معمل مجاني متكامل لتطبيق ثغرة Stack Buffer Overflow على برنامج ويندوز حقيقي، والتحكم في سجل EIP، وأخذ شيل كامل.",
+                "whatIsIt": "ماكينة ويندوز مجانية عليها برنامج شغال على بورت معين، لما بتبعت له كلام كتير بيهنج (Crash)؛ الروم دي بتخليك تحلل البرنامج وتبعت له Payload محسوب بالبايت عشان تتحكم في المعالج وتفتح شيل على جهاز الضحية.",
+                "learningBenefit": "بتحول كلام الـ Stack والـ Registers والـ EIP والـ Bad Characters من كلام نظري في الكتب لتطبيق عملي قدام عينك باستخدام Immunity Debugger / GDB.",
+                "skillGained": "هتتعلم إزاي تعمل Fuzzing، تحدد الـ Offset بدقة، تكتشف الـ JMP ESP، وتولّد Shellcode بـ msfvenom لتنفيذ أوامر عن بُعد.",
+                "projectBenefit": "تثبت في مشروع التخرج استيعابك العميق لهندسة الذاكرة ومعمارية المعالج (x86 Architecture) وكيف تحدث ثغرات فساد الذاكرة (Memory Corruption)."
+          },
+          {
+                "name": "Security Principles (مبادئ ومعمارية أمن الأنظمة)",
+                "platform": "TryHackMe (مجانية 100%)",
+                "url": "https://tryhackme.com/room/securityprinciples",
+                "difficulty": "Easy — مجانية",
+                "whyMatters": "تأصيل مفاهيم CIA Triad، الدفاع في العمق (Defense in Depth)، ومبدأ أقل صلاحية وعزل الذاكرة والأنظمة.",
+                "whatIsIt": "روم خفيفة وممتعة بتشرح لك القواعد الهندسية اللي بيتبني عليها أمان أي نظام تشغيل أو شبكة، وإزاي طبقات الحماية بتشتغل ورا بعض لو طبقة وقعت التانية تصد الهجوم.",
+                "learningBenefit": "استيعاب نماذج الأمان القياسية مثل CIA Triad، DAD Triad، Zero Trust، و Defense-in-Depth.",
+                "skillGained": "القدرة على تحليل أي نظام وتحديد نقاط الضعف المعمارية فيه قبل حتى استخدام أدوات الفحص.",
+                "projectBenefit": "تدعم الجانب الهندسي والمعماري في المحطة الثانية من مشروع التخرج عند الحديث عن حماية الأنظمة وعزل العمليات."
+          },
+          {
+                "name": "OverTheWire: Leviathan & Narnia (تحديات Binary & Memory)",
+                "platform": "OverTheWire (مجانية 100% بدون تسجيل)",
+                "url": "https://overthewire.org/wargames/leviathan/",
+                "difficulty": "Medium — مجانية",
+                "whyMatters": "سلسلة تحديات مجانية مفتوحة عبر SSH لفحص البرامج التنفيذية (Binaries) وتتبع استدعاءات النظام والذاكرة.",
+                "whatIsIt": "لعبة تحديات مجانية بتدخل عليها بالـ SSH على طول من غير حتى ما تعمل إيميل؛ كل مرحلة بتديك ملف تنفيذي (C Binary) وتطلب منك تفهم هو بيشتغل إزاي في الذاكرة عشان تطلع باسورد المرحلة اللي بعدها.",
+                "learningBenefit": "التدريب العملي على أدوات تحليل البرامج مثل ltrace و strace و gdb وفهم كيف يتعامل البرنامج مع الذاكرة والملفات.",
+                "skillGained": "مهارة الهندسة العكسية المبدئية (Basic Reverse Engineering) وقراءة سلوك البرامج من الداخل.",
+                "projectBenefit": "تضيف تنوعاً قوياً لمصادر التدريب في المشروع بدمج منصة OverTheWire العالمية إلى جانب TryHackMe."
+          }
     ],
     writeup: {
       title: 'تحليل ثغرة تدفق الذاكرة الكلاسيكية واستعادة مسار التنفيذ (Stack Buffer Overflow Analysis)',
@@ -451,8 +513,39 @@ Address                  HWtype  HWaddress           Flags Mask            Iface
       }
     ],
     tryHackMeRooms: [
-      { name: 'Network Fundamentals Module', url: 'https://tryhackme.com/r/module/network-fundamentals', difficulty: 'Easy', whyMatters: 'المسار التدريبي الأكثر شمولاً في بروتوكولات الشبكات وعنونة IPv4.' },
-      { name: 'Wireshark: The Basics', url: 'https://tryhackme.com/r/room/wiresharkthebasics', difficulty: 'Easy', whyMatters: 'تدريب تفاعلي على فتح ملفات الـ PCAP وفلترة الحزم وتحليل حركة المرور.' }
+          {
+                "name": "Introductory Networking (تأسيس الشبكات الشامل)",
+                "platform": "TryHackMe (مجانية 100%)",
+                "url": "https://tryhackme.com/room/introtonetworking",
+                "difficulty": "Easy — مجانية",
+                "whyMatters": "الروم المجانية الأساسية لفهم نموذج OSI، حزمة TCP/IP، المصافحة الثلاثية، وأدوات ping و traceroute و whois.",
+                "whatIsIt": "روم بتأسسك من الصفر في الشبكات بالبلدي: إزاي الباكيت بتطلع من جهازك لحد ما توصل للسيرفر، إيه الفرق بين الـ IP والـ MAC Address، وإزاي TCP بيعمل 3-Way Handshake.",
+                "learningBenefit": "إتقان طبقات OSI السبعة، عناوين IPv4 والـ Subnetting، وأدوات فحص الشبكة الأساسية في لينكس وويندوز.",
+                "skillGained": "هتقدر تقرأ مسار أي اتصال شبكي، وتعرف الباكيت بتمر على كام راوتر، وتفهم معنى كل بورت وخدمة.",
+                "projectBenefit": "تمثل الأساس الذي تُبنى عليه كل مراحل الفحص والـ Pivoting وتحليل الترافيك داخل مشروع التخرج."
+          },
+          {
+                "name": "TShark: Network Packet Analysis (تحليل حزم الشبكة)",
+                "platform": "TryHackMe (مجانية 100%)",
+                "url": "https://tryhackme.com/room/tshark",
+                "difficulty": "Medium — مجانية",
+                "whyMatters": "معمل مجاني رائع لتحليل ملفات الترافيك (PCAP) وفلاتر Wireshark/TShark لاستخراج البيانات وكشف الهجمات الشبكية.",
+                "whatIsIt": "بما إن بعض رومات Wireshark أصبحت بريميوم، الروم دي مجانية 100% وبتعلمك TShark (وهو النسخة التيرمينال من Wireshark وبنفس الفلاتر بالظبط!)؛ بتفتح ملفات ترافيك حقيقية وتطلع منها باسوردات واتصالات مشبوهة.",
+                "learningBenefit": "احتراف فلاتر العرض والتقاط الحزم (Capture & Display Filters) المستخدمة في كل من Wireshark و TShark.",
+                "skillGained": "القدرة على تحليل ملفات `.pcap` الضخمة في ثوانٍ واستخراج الملفات والبيانات المسربة من الترافيك.",
+                "projectBenefit": "تخدم المحطة الثالثة مباشرة وتثبت قدرتك على التحليل الجنائي للشبكات (Network Forensics) من واجهة سطر الأوامر والواجهة الرسومية."
+          },
+          {
+                "name": "DNS in Detail (تشريح بروتوكول DNS عملياً)",
+                "platform": "TryHackMe (مجانية 100%)",
+                "url": "https://tryhackme.com/room/dnsindetail",
+                "difficulty": "Easy — مجانية",
+                "whyMatters": "محاكاة تفاعلية مجانية لكيفية عمل DNS وسجلات A, AAAA, CNAME, MX, TXT واستخدامها في الاستطلاع الشبكي.",
+                "whatIsIt": "روم تفاعلية فيها محاكي بصري بيخليك تبعت طلبات DNS وتشوف إزاي السيرفرات بترد عليك، وإيه فايدة كل نوع سجل (Record) لما تيجي تفحص شركة.",
+                "learningBenefit": "فهم البنية الهرمية لـ DNS وكيف يستغلها مختبر الاختراق في جمع النطاقات الفرعية واكتشاف البنية التحتية.",
+                "skillGained": "إتقان أوامر `dig` و `nslookup` وتحليل سجلات TXT و MX لاكتشاف خدمات البريد والتوثيق.",
+                "projectBenefit": "تربط بين أساسيات الشبكات في المرحلة 3 ومرحلة الاستطلاع المتقدم و DNS Tunneling في مراحل الريد تيم اللاحقة."
+          }
     ],
     writeup: {
       title: 'تحليل واعتراض حركة المرور الشبكية غير المشفرة عبر Wireshark (Network Traffic Analysis)',
@@ -622,8 +715,39 @@ Address                  HWtype  HWaddress           Flags Mask            Iface
       }
     ],
     tryHackMeRooms: [
-      { name: 'Linux Fundamentals 1, 2, 3', url: 'https://tryhackme.com/r/module/linux-fundamentals', difficulty: 'Easy', whyMatters: 'المسار التدريبي الرسمي الشامل لإتقان لينكس من الصفر حتى كتابة الاسكربتات.' },
-      { name: 'Bash Scripting Lab', url: 'https://tryhackme.com/r/room/bashscripting', difficulty: 'Easy', whyMatters: 'تمارين عملية على كتابة الاسكربتات والأتمتة ومعالجة النصوص.' }
+          {
+                "name": "Linux Fundamentals Part 1 (أساسيات لينكس التفاعلية)",
+                "platform": "TryHackMe (مجانية 100%)",
+                "url": "https://tryhackme.com/room/linuxfundamentalspart1",
+                "difficulty": "Easy — مجانية",
+                "whyMatters": "بيئة لينكس مجانية تفتح داخل المتصفح مباشرة لتجربة أوامر التنقل والبحث والتعامل مع الملفات.",
+                "whatIsIt": "روم مجانية بتفتح لك جهاز لينكس حقيقي جوه المتصفح من غير ما تسطب حاجة، وبتعلمك خطوة بخطوة أوامر `ls`, `cd`, `cat`, `find`, `grep` والمشغلات الأساسية.",
+                "learningBenefit": "فهم هيكلة نظام لينكس وكيفية البحث داخل الملفات وتوجيه المخرجات (`|`, `>`, `>>`).",
+                "skillGained": "التعامل السريع مع التيرمينال بدون ماوس والبحث عن الملفات الحساسة والفلاجات.",
+                "projectBenefit": "تتطابق مباشرة مع محاكي التيرمينال التفاعلي المدمج في مشروع التخرج."
+          },
+          {
+                "name": "Bash Scripting (برمجة وأتمتة سكربتات الباش)",
+                "platform": "TryHackMe (مجانية 100%)",
+                "url": "https://tryhackme.com/room/bashscripting",
+                "difficulty": "Easy — مجانية",
+                "whyMatters": "تعلم كتابة سكربتات Bash بالمتغيرات والشروط والحلقات التكرارية لأتمتة مهام الفحص والاختراق.",
+                "whatIsIt": "بدل ما تكتب 50 أمر بإيدك كل مرة، الروم دي بتعلمك إزاي تكتب ملف `.sh` صغير يعمل الفحص كله لوحده ويطلع لك النتيجة الصافية.",
+                "learningBenefit": "إتقان الـ Variables, Arrays, Conditionals (`if/else`), والـ Loops (`for/while`) في لغة Bash.",
+                "skillGained": "القدرة على بناء أدواتك الخاصة في كالي لينكس لأتمتة فحص البورتات والـ Subdomains.",
+                "projectBenefit": "تبرز في مشروع التخرج مهارة الأتمتة (Automation) وأن المختبر المحترف يصنع أدواته ولا يعتمد فقط على الأدوات الجاهزة."
+          },
+          {
+                "name": "OverTheWire: Bandit (المعمل الأشهر عالمياً لاحتراف لينكس)",
+                "platform": "OverTheWire (مجانية 100% بالكامل — 34 مستوى)",
+                "url": "https://overthewire.org/wargames/bandit/",
+                "difficulty": "Easy to Medium — مجانية",
+                "whyMatters": "34 مستوى تدريجياً مجانياً بالكامل تغطي كل أسرار لينكس: الصلاحيات، فك الضغط، SSH Keys، Cron Jobs، و SUID.",
+                "whatIsIt": "أمتع وأقوى لعبة تدريبية مجانية في العالم لتعلم لينكس؛ بتبدأ من Level 0 وكل مستوى بيديك لغز في لينكس لما تحله بتاخد باسورد المستوى اللي بعده لحد Level 34.",
+                "learningBenefit": "تغطية شاملة للصلاحيات، الملفات المخفية، التشفير، الشبكات المحلية، ومهام الجدولة وملفات الـ SUID.",
+                "skillGained": "بعد إنهاء أول 20 مستوى من Bandit، هتكون محترف تيرمينال لينكس ومستعد لأي ماكينة اختراق.",
+                "projectBenefit": "مرجع عملي ذهبي للمحطة الرابعة والمرحلة 15 (تصعيد الصلاحيات في لينكس) داخل المشروع."
+          }
     ],
     writeup: {
       title: 'تدقيق أمان خوادم لينكس وأتمتة اكتشاف ملفات SUID الخطرة (Linux SUID Auditing & Automation)',
@@ -786,8 +910,39 @@ Address                  HWtype  HWaddress           Flags Mask            Iface
       }
     ],
     tryHackMeRooms: [
-      { name: 'Introduction to Virtualisation', url: 'https://tryhackme.com/r/room/virtualisationintro', difficulty: 'Easy', whyMatters: 'فهم كيف تعمل الماكينات الافتراضية وتقسيم الذاكرة والمعالجات الافتراضية.' },
-      { name: 'OpenVPN Connection Guide', url: 'https://tryhackme.com/r/room/openvpn', difficulty: 'Easy', whyMatters: 'ربط كالي بلابات وسيرفرات TryHackMe عبر النفق الافتراضي بأمان.' }
+          {
+                "name": "OpenVPN Connection Lab (إعداد أنفاق الاتصال المعزولة)",
+                "platform": "TryHackMe (مجانية 100%)",
+                "url": "https://tryhackme.com/room/openvpn",
+                "difficulty": "Easy — مجانية",
+                "whyMatters": "التطبيق العملي لربط ماكينتك الافتراضية (Kali VM) بشبكة المختبرات المعزولة عبر بروتوكول OpenVPN.",
+                "whatIsIt": "روم عملية مجانية بتعلمك إزاي تاخد ملف إعدادات الشبكة `.ovpn` وتشغله من داخل كالي لينكس عشان يدخلك جوه شبكة المعمل المعزولة بأمان.",
+                "learningBenefit": "فهم واجهات الشبكة الافتراضية (`tun0`) وكيف يتم توجيه الترافيك عبر نفق VPN مشفر لمعامل الاختراق.",
+                "skillGained": "القدرة على ربط بيئة VMware / VirtualBox الخاصة بك بأي ساحة تدريب سيبرانية وحل مشاكل الاتصال.",
+                "projectBenefit": "تطبق عملياً مفهوم العزل الشبكي (Network Isolation) المشروح في المحطة الخامسة من المشروع."
+          },
+          {
+                "name": "Tutorial: Lab Environment Verification (اختبار بيئة المعمل)",
+                "platform": "TryHackMe (مجانية 100%)",
+                "url": "https://tryhackme.com/room/tutorial",
+                "difficulty": "Easy — مجانية",
+                "whyMatters": "تشغيل أول ماكينة مستهدفة (Target VM) والتحقق من الوصول الشبكي إليها عبر الـ IP الداخلي للمعمل.",
+                "whatIsIt": "روم تطبيقية سريعة بتشغل فيها سيرفر هدف وتجرب توصل له من جهازك وتتأكد إن إعدادات الشبكة والـ VM شغالة 100% وتسحب أول فلاج.",
+                "learningBenefit": "استيعاب دورة حياة الماكينات الافتراضية المستهدفة وعناوين الـ Private IP في المختبرات المعزولة.",
+                "skillGained": "التأكد من جاهزية المختبر الشخصي قبل الدخول في معارك الفحص والاستغلال.",
+                "projectBenefit": "توضح للمتدرب في المنصة كيف ينتقل من تجهيز المعمل إلى بدء الفحص الفعلي."
+          },
+          {
+                "name": "Starting Out In Cyber Sec (هندسة المسار المعملي)",
+                "platform": "TryHackMe (مجانية 100%)",
+                "url": "https://tryhackme.com/room/startingoutincybersec",
+                "difficulty": "Easy — مجانية",
+                "whyMatters": "خريطة طريق مجانية لتنظيم بيئة العمل والتدريب العملي بين التخصصات الهجومية والدفاعية.",
+                "whatIsIt": "روم إرشادية مجانية بتساعدك ترتب أدواتك ومعملك الشخصي وتفهم إيه البيئات اللي هتحتاج تسطبها في رحلتك.",
+                "learningBenefit": "تنظيم منهجية المذاكرة العملية وبناء المعمل المنزلي الآمن (Home Lab).",
+                "skillGained": "وضوح الرؤية وكيفية اختيار الأدوات والماكينات المناسبة لكل مرحلة.",
+                "projectBenefit": "تعزز تكامل خارطة الطريق داخل منصة مشروع التخرج."
+          }
     ],
     writeup: {
       title: 'بناء واختبار شبكة معملية معزولة متعددة النطاقات (Isolated Multi-Segment Lab Architecture)',
@@ -958,8 +1113,39 @@ seclists is already the newest version (2024.1).
       }
     ],
     tryHackMeRooms: [
-      { name: 'Kali Linux Basics', url: 'https://tryhackme.com/r/room/kalilinux', difficulty: 'Easy', whyMatters: 'التعرف على توزيعة كالي وأهم تصنيفات الأدوات في القائمة الرئيسية.' },
-      { name: 'Linux Modules', url: 'https://tryhackme.com/r/room/linuxmodules', difficulty: 'Easy', whyMatters: 'إتقان حزم لينكس والتعامل مع الخدمات والـ Daemons.' }
+          {
+                "name": "Linux Modules & Power Tools (أدوات كالي لينكس المتقدمة)",
+                "platform": "TryHackMe (مجانية 100%)",
+                "url": "https://tryhackme.com/room/linuxmodules",
+                "difficulty": "Easy — مجانية",
+                "whyMatters": "احتراف أدوات المعالجة والبحث القوية في كالي لينكس (awk, sed, grep, find, xargs, curl, wget).",
+                "whatIsIt": "روم مجانية بتركز على الأدوات السحرية الموجودة جوه كالي لينكس واللي أي هكر بيستخدمها كل دقيقة عشان يفلتر نتائج الفحص ويسحب ملفات.",
+                "learningBenefit": "إتقان معالجة النصوص واللوجات الضخمة واستخراج الإيميلات والـ IPs والباسوردات بأمر واحد.",
+                "skillGained": "سرعة خارقة في التعامل مع مخرجات أدوات كالي لينكس في سطر الأوامر.",
+                "projectBenefit": "تخدم المحطة السادسة في تسليح المتدرب بمهارات التحكم الاحترافي في نظام كالي."
+          },
+          {
+                "name": "Hydra: Network Logon Brute-Forcing (أداة Hydra في كالي)",
+                "platform": "TryHackMe (مجانية 100%)",
+                "url": "https://tryhackme.com/room/hydra",
+                "difficulty": "Easy — مجانية",
+                "whyMatters": "التدريب العملي على أداة Hydra وقوائم كلمات السر (SecLists / rockyou.txt) المدمجة في كالي لينكس.",
+                "whatIsIt": "معمل مجاني بيشغل لك سيرفر عليه صفحة دخول وخدمة SSH، وبيخليك تستخدم أداة Hydra مع قاموس كلمات السر `rockyou.txt` في كالي عشان تكسر الباسورد وتدخل.",
+                "learningBenefit": "فهم كيفية عمل القواميس (Wordlists) وكيفية تخمين كلمات السر على بروتوكولات HTTP POST/GET, SSH, FTP, RDP.",
+                "skillGained": "كتابة أوامر Hydra بدقة لأي نموذج تسجيل دخول أو خدمة شبكية.",
+                "projectBenefit": "تطبيق مباشر على استخدام أدوات كالي الهجومية وقواميس SecLists المشروحة في المرحلة السادسة."
+          },
+          {
+                "name": "Metasploit: Introduction (إطار Metasploit في كالي)",
+                "platform": "TryHackMe (مجانية 100%)",
+                "url": "https://tryhackme.com/room/metasploitintro",
+                "difficulty": "Easy — مجانية",
+                "whyMatters": "شرح وتطبيق مجاني لإطار Metasploit المدمج في كالي لينكس: Modules, Exploits, Payloads, و جلسات Meterpreter.",
+                "whatIsIt": "روم مجانية شاملة بتعلمك أشهر أداة في كالي لينكس (`msfconsole`)؛ إزاي تدور على ثغرة، تضبط الإعدادات (`RHOSTS`, `LHOST`)، وتطلق الاستغلال.",
+                "learningBenefit": "التفريق بين الـ Exploits والـ Auxiliary والـ Post Modules وبين الـ Staged والـ Stageless Payloads.",
+                "skillGained": "القدرة على تشغيل Metasploit باحترافية وإدارة جلسات الاختراق.",
+                "projectBenefit": "ركيزة أساسية في تسليح كالي لينكس وتمهد لمراحل استغلال الشبكات وويندوز ولينكس في المشروع."
+          }
     ],
     writeup: {
       title: 'تجهيز وتأمين محطة كالي لينكس وبناء بيئة أدوات آمنة (Hardened Offensive Workstation Setup)',
@@ -1172,9 +1358,39 @@ HOST-RESOURCES-MIB::hrSWRunName.1150 = STRING: "mysqld"`,
       }
     ],
     tryHackMeRooms: [
-      { name: 'Nmap Basics & Advanced', url: 'https://tryhackme.com/r/room/furthernmap', difficulty: 'Easy to Medium', whyMatters: 'شرح تفصيلي شامل لكل Flags أداة Nmap وكيفية التعامل مع الفايروول.' },
-      { name: 'Network Services (SMB, Telnet, FTP)', url: 'https://tryhackme.com/r/room/networkservices', difficulty: 'Easy', whyMatters: 'التدريب العملي الأساسي لاختبار eJPTv2 على خدمات المشاركة والملفات.' },
-      { name: 'Network Services 2 (NFS, SMTP, MySQL)', url: 'https://tryhackme.com/r/room/networkservices2', difficulty: 'Medium', whyMatters: 'استطلاع قواعد البيانات ومشاركات ملفات NFS واستخراج بياناتها.' }
+          {
+                "name": "Further Nmap (الدليل العملي الكامل لأداة Nmap)",
+                "platform": "TryHackMe (مجانية 100%)",
+                "url": "https://tryhackme.com/room/furthernmap",
+                "difficulty": "Easy to Medium — مجانية",
+                "whyMatters": "أقوى وأشمل روم مجانية على الإطلاق لتعلم كل أنواع فحوصات Nmap وسكربتات NSE وتجاوز الجدران النارية.",
+                "whatIsIt": "الكنز المجاني لتعلم Nmap من الألف للياء! بتجرب فيها بإيدك فحص SYN (`-sS`)، وفحص TCP Connect (`-sT`)، وفحص UDP (`-sU`)، وفحوصات التخفي (`Null, FIN, Xmas`)، وتشغيل سكربتات اكتشاف الثغرات (`--script=vuln`).",
+                "learningBenefit": "فهم كيف يرد كل بورت (Open, Closed, Filtered) بناءً على أعلام TCP (SYN, ACK, RST) وكيف تتخطى الـ Firewall.",
+                "skillGained": "إتقان أداة Nmap بالكامل كما هو مطلوب في شهادة eJPTv2 و OSCP.",
+                "projectBenefit": "مطابقة 100% للمرحلة السابعة في مشروع التخرج ولأوامر Nmap الموجودة في التيرمينال التفاعلي للمنصة."
+          },
+          {
+                "name": "Network Services (فحص واختراق SMB, Telnet, FTP)",
+                "platform": "TryHackMe (مجانية 100%)",
+                "url": "https://tryhackme.com/room/networkservices",
+                "difficulty": "Easy — مجانية",
+                "whyMatters": "تطبيق عملي للاستطلاع والفحص ثم الاختراق الفعلي لأشهر 3 خدمات شبكية (SMB, Telnet, FTP).",
+                "whatIsIt": "روم عملية جداً بتديك 3 ماكينات وبتخليك تفحصهم بـ Nmap، وبعدين تستغل إعدادات خاطئة في مشاركة الملفات (SMB) و Telnet و FTP عشان تدخل وتاخد شيل.",
+                "learningBenefit": "تعلم methodology الفحص (Enumeration) لكل خدمة شبكية باستخدام enum4linux و nmap و ftp.",
+                "skillGained": "تحويل نتائج فحص Nmap من مجرد أرقام بورتات إلى اختراق فعلي للسيرفر.",
+                "projectBenefit": "توضح عملياً في المشروع كيف يقود الاستطلاع الشبكي (Reconnaissance) إلى الوصول الأولي (Initial Access)."
+          },
+          {
+                "name": "Network Services 2 (فحص واختراق NFS, SMTP, MySQL)",
+                "platform": "TryHackMe (مجانية 100%)",
+                "url": "https://tryhackme.com/room/networkservices2",
+                "difficulty": "Medium — مجانية",
+                "whyMatters": "استكمال فحص واختراق خدمات الشبكة المتقدمة: مشاركة ملفات لينكس (NFS)، البريد (SMTP)، وقواعد البيانات (MySQL).",
+                "whatIsIt": "الجزء التاني المجاني من روم خدمات الشبكة؛ بتعلمك إزاي تفحص سيرفر إيميلات وتطلع أسماء المستخدمين، وإزاي تركب بارتيشن NFS مفتوح على جهازك وتسرق مفاتيح الـ SSH.",
+                "learningBenefit": "فهم بروتوكولات NFS, SMTP, MySQL وكيف يتم فحصها واستغلال ثغرات الإعدادات فيها.",
+                "skillGained": "خبرة ميدانية شاملة في فحص أشهر 6 بروتوكولات شبكية تصادفك في أي شركة.",
+                "projectBenefit": "تكمل تغطية منهج eJPTv2 للاستطلاع وفحص الشبكات داخل المحطة السابعة من المشروع."
+          }
     ],
     writeup: {
       title: 'استطلاع شبكي شامل وكشف خدمات SMB و SNMP غير المحمية (Network Recon & Enumeration Engagement)',
@@ -1359,8 +1575,39 @@ Content-Type: text/html; charset=UTF-8`,
       }
     ],
     tryHackMeRooms: [
-      { name: 'Web Fundamentals Module', url: 'https://tryhackme.com/r/module/web-fundamentals', difficulty: 'Easy', whyMatters: 'تأسيس شامل في HTTP, Requests, Responses, Cookies, Web Servers.' },
-      { name: 'How The Web Works', url: 'https://tryhackme.com/r/room/howthewebworks', difficulty: 'Easy', whyMatters: 'يشرح كيف تترابط خدمات الـ DNS مع السيرفر والمتصفح.' }
+          {
+                "name": "HTTP in Detail (تشريح بروتوكول الويب والـ Requests)",
+                "platform": "TryHackMe (مجانية 100%)",
+                "url": "https://tryhackme.com/room/httpindetail",
+                "difficulty": "Easy — مجانية",
+                "whyMatters": "فهم تفصيلي لطلبات الويب (GET, POST, PUT, DELETE)، أكواد الحالة، الترويسات (Headers)، والكوكيز.",
+                "whatIsIt": "روم مجانية تفاعلية بتوريك إيه اللي بيحصل في الكواليس لما تدوس كليك في أي موقع: شكل الـ HTTP Request والـ Response، وإزاي السيرفر بيعرف هويتك عن طريق الـ Cookies والـ Headers.",
+                "learningBenefit": "إتقان بنية بروتوكول HTTP/HTTPS، طرق الإرسال، وترويسات الأمان والجلسات.",
+                "skillGained": "القدرة على قراءة وتعديل أي طلب HTTP الخام (Raw HTTP Request) بسهولة.",
+                "projectBenefit": "المدخل الأساسي لفهم حي أمن الويب والـ APIs في المرحلة الثامنة من المشروع."
+          },
+          {
+                "name": "Overpass (اختراق المصادقة والكوكيز في تطبيق ويب)",
+                "platform": "TryHackMe (مجانية 100%)",
+                "url": "https://tryhackme.com/room/overpass",
+                "difficulty": "Easy — مجانية",
+                "whyMatters": "معمل تطبيقي مجاني لاكتشاف كود مصادقة ضعيف في JavaScript وتعديل الكوكيز (Session Manipulation) لتجاوز تسجيل الدخول.",
+                "whatIsIt": "ماكينة كاملة مجانية لموقع شركة؛ لما بتفحص كود الـ JavaScript بتاع صفحة الدخول بتلاقي المبرمج معتمد على Cookie بسيطة عشان يعرف إنك Admin، فتعدل الكوكي وتدخل فوراً من غير باسورد!",
+                "learningBenefit": "فهم مخاطر الاعتماد على التحقق من طرف العميل (Client-Side Validation) وسوء إدارة الجلسات (Broken Authentication).",
+                "skillGained": "مهارة فحص الكود المصدري للويب، التلاعب بالكوكيز، وكسر مفاتيح SSH وتصعيد الصلاحيات.",
+                "projectBenefit": "مثال عملي ممتاز للاستشهاد به في مشروع التخرج حول أخطاء المصادقة وإدارة الجلسات."
+          },
+          {
+                "name": "PortSwigger: API Testing Labs (معامل اختبار الـ REST APIs)",
+                "platform": "PortSwigger Web Security Academy (مجانية 100%)",
+                "url": "https://portswigger.net/web-security/api-testing",
+                "difficulty": "Easy to Medium — مجانية",
+                "whyMatters": "معامل تفاعلية مجانية بالكامل لاكتشاف ثغرات الـ APIs، الوثائق المخفية (Swagger/OpenAPI)، وثغرات Mass Assignment.",
+                "whatIsIt": "معامل مجانية من موقع PortSwigger الرسمي؛ بتفتح لك مواقع حقيقية فيها REST APIs مصابة، وبتعلمك إزاي تكتشف الـ Endpoints المخفية وتبعت طلبات JSON معدلة عشان تاخد صلاحيات أعلى.",
+                "learningBenefit": "احتراف منهجية OWASP API Security Top 10 مثل BOLA/IDOR و Mass Assignment و Improper Assets Management.",
+                "skillGained": "القدرة على فحص واختراق تطبيقات الويب والموبايل الحديثة المبنية على REST و GraphQL APIs.",
+                "projectBenefit": "تغطي جانب أمن الواجهات البرمجية (API Security) في المرحلة الثامنة بعمق احترافي."
+          }
     ],
     writeup: {
       title: 'تدقيق أمان واجهات RESTful APIs وتلاعب رموز المصادقة JWT (Web Architecture & API Security Audit)',
@@ -1541,9 +1788,39 @@ available databases [3]:
       }
     ],
     tryHackMeRooms: [
-      { name: 'OWASP Top 10 Room', url: 'https://tryhackme.com/r/room/owasptop10', difficulty: 'Easy to Medium', whyMatters: 'غرفة تطبيقية كلاسيكية تجمع لابات مباشرة لكل ثغرة من ثغرات OWASP العشرة.' },
-      { name: 'SQL Injection Lab', url: 'https://tryhackme.com/r/room/sqlinjectionlm', difficulty: 'Medium', whyMatters: 'تمارين عملية على استخراج البيانات يدوياً وآلياً عبر SQLi.' },
-      { name: 'Cross-Site Scripting (XSS)', url: 'https://tryhackme.com/r/room/xss', difficulty: 'Medium', whyMatters: 'شرح وتطبيق أنواع الـ XSS وتجاوز الفلاتر البدائية.' }
+          {
+                "name": "SQL Injection Lab (المعمل الشامل لحقن قواعد البيانات)",
+                "platform": "TryHackMe (مجانية 100%)",
+                "url": "https://tryhackme.com/room/sqlinjectionlm",
+                "difficulty": "Medium — مجانية",
+                "whyMatters": "تطبيق عملي خطوة بخطوة لكل أنواع SQL Injection: In-Band (Union & Error)، و Blind (Boolean & Time-Based).",
+                "whatIsIt": "روم مجانية ممتازة بتفتح لك تطبيق ويب متصل بقاعدة بيانات، وبتعلمك واحدة واحدة إزاي تحقن أوامر SQL عشان تسحب الجداول واليوزرات والباسوردات حتى لو الصفحة مش بتطلع لك أخطاء (Blind SQLi).",
+                "learningBenefit": "فهم كيف يبني المبرمج استعلام SQL غير آمن وكيف يستغله المهاجم عبر `UNION SELECT` و `SLEEP()`.",
+                "skillGained": "القدرة على اكتشاف واستغلال ثغرات SQLi يدوياً وباستخدام أداة SQLmap، ومعرفة كيفية ترقيعها بـ Prepared Statements.",
+                "projectBenefit": "ترتبط مباشرة بمعمل الـ Payload Playground المدمج في المنصة لتجربة حمولات SQLi."
+          },
+          {
+                "name": "OWASP Juice Shop (اختراق متجر OWASP الرسمي)",
+                "platform": "TryHackMe (مجانية 100%)",
+                "url": "https://tryhackme.com/room/owaspjuiceshop",
+                "difficulty": "Easy to Medium — مجانية",
+                "whyMatters": "تدريب عملي مجاني على أشهر تطبيق ويب مصاب من منظمة OWASP: يشمل SQLi، XSS، IDOR، و Broken Access Control.",
+                "whatIsIt": "متجر إلكتروني كامل حديث (مكتوب بـ Node.js و Angular) مليان ثغرات حقيقية؛ الروم بتمشيك فيه في جولة عملية عشان تخترق حساب الأدمن، وتنفذ هجمات XSS، وتوصل لملفات سرية.",
+                "learningBenefit": "التعرف العملي على ثغرات OWASP Top 10 في بيئة تطبيقات الويب الحديثة (Single Page Applications).",
+                "skillGained": "مهارة الربط بين أكثر من ثغرة ويب للوصول للسيطرة على التطبيق.",
+                "projectBenefit": "تعزز فهمك التطبيقي لأشهر مشروع تدريبي عالمي من منظمة OWASP وتدعم المرحلة التاسعة بقوة."
+          },
+          {
+                "name": "DVWA — Damn Vulnerable Web Application (معمل ثغرات الويب)",
+                "platform": "TryHackMe (مجانية 100%)",
+                "url": "https://tryhackme.com/room/dvwa",
+                "difficulty": "Easy to Medium — مجانية",
+                "whyMatters": "بيئة تدريب مجانية تحتوي على كافة ثغرات الويب (Command Injection, CSRF, File Inclusion, SQLi, XSS) بأربعة مستويات أمان.",
+                "whatIsIt": "روم مجانية بتشغل لك تطبيق DVWA الشهير؛ الميزة الرهيبة فيه إنك بتجرب الثغرة وهي سهلة (Low)، وبعدين ترفع مستوى الحماية لـ Medium و High وتشوف الكود المصدري إزاي المبرمج حاول يمنعك وإزاي تتخطاه!",
+                "learningBenefit": "مقارنة الكود المصاب بالكود المحمي وفهم لماذا تفشل الفلاتر الضعيفة (Blacklisting) وتنجح الحلول الجذرية.",
+                "skillGained": "إتقان استغلال وترقيع أهم 10 ثغرات ويب من منظور المهاجم والمدافع معاً.",
+                "projectBenefit": "نفس فلسفة مقارنة الكود المصاب بالكود المرقع الموجودة في معمل المنصة التفاعلي."
+          }
     ],
     writeup: {
       title: 'استغلال وترقيع ثغرات حقن قواعد البيانات المتقدمة SQLi (OWASP Top 10 Web Exploitation)',
@@ -1712,9 +1989,39 @@ Content-Type: application/json
       }
     ],
     tryHackMeRooms: [
-      { name: 'Burp Suite: The Basics', url: 'https://tryhackme.com/r/room/burpsuitebasics', difficulty: 'Easy', whyMatters: 'شرح شامل لواجهة وإعدادات وعملية اعتراض الترافيك في بيرب سويت.' },
-      { name: 'Burp Suite: Repeater', url: 'https://tryhackme.com/r/room/burpsuiterepeater', difficulty: 'Easy', whyMatters: 'إتقان استخدام Repeater لتحليل الثغرات يدوياً.' },
-      { name: 'Burp Suite: Intruder', url: 'https://tryhackme.com/r/room/burpsuiteintruder', difficulty: 'Medium', whyMatters: 'شرح أنواع هجمات Intruder الأربعة وتخصيص نقاط التخمين.' }
+          {
+                "name": "PortSwigger Web Security Academy (المعامل الرسمية لأداة Burp Suite)",
+                "platform": "PortSwigger Academy (مجانية 100% بالكامل)",
+                "url": "https://portswigger.net/web-security/all-labs",
+                "difficulty": "Easy to Hard — مجانية",
+                "whyMatters": "أقوى معمل مجاني في العالم مقدم من الشركة المصنعة لـ Burp Suite نفسها للتدريب على Proxy, Repeater, Intruder, و Race Conditions.",
+                "whatIsIt": "بما إن غرف Burp Suite على TryHackMe معظمها بريميوم، الشركة اللي عملت Burp Suite نفسها (PortSwigger) عاملة أكاديمية مجانية 100% فيها مئات المعامل الحية اللي بتفتح في ثانية وتطبق عليها بـ Burp Suite Community مجاناً!",
+                "learningBenefit": "احتراف اعتراض الطلبات، التلاعب بالبراميترات في Repeater، الهجوم المؤتمت في Intruder، وفك التشفير في Decoder.",
+                "skillGained": "إتقان السلاح رقم 1 لأي مختبر اختراق ويب أو باحث Bug Bounty في العالم.",
+                "projectBenefit": "تمنحك أقوى مصدر رسمي عالمي في المرحلة العاشرة من مشروع التخرج من مطوري الأداة أنفسهم."
+          },
+          {
+                "name": "OWASP Mutillidae II (التطبيق العملي لاعتراض وتعديل الطلبات)",
+                "platform": "TryHackMe (مجانية 100%)",
+                "url": "https://tryhackme.com/room/owaspmutillidae",
+                "difficulty": "Easy — مجانية",
+                "whyMatters": "معمل ويب مجاني على TryHackMe مثالي لتشغيل Burp Suite Proxy و Repeater واختبار حقن المدخلات وتجاوز فحوصات المتصفح.",
+                "whatIsIt": "ماكينة مجانية على TryHackMe عليها تطبيق ويب مليان نماذج وصفحات تقدر توجه عليها Burp Suite وتجرب تعدل الداتا وهي طايرة في الهوا قبل ما توصل للسيرفر.",
+                "learningBenefit": "التدريب الميداني على تجاوز قيود الواجهة الأمامية (Client-Side Bypass) باستخدام Burp Proxy.",
+                "skillGained": "الاعتياد على سير العمل اليومي لمختبر الاختراق بين المتصفح و Burp Suite.",
+                "projectBenefit": "توفر بيئة مجانية على TryHackMe بجانب معامل PortSwigger لتطبيق مهارات المرحلة العاشرة."
+          },
+          {
+                "name": "Bolt CMS (تحليل طلبات الويب واستغلال RCE)",
+                "platform": "TryHackMe (مجانية 100%)",
+                "url": "https://tryhackme.com/room/bolt",
+                "difficulty": "Easy — مجانية",
+                "whyMatters": "تحدي عملي مجاني لاكتشاف بيانات الدخول وفحص الطلبات واستغلال ثغرة تنفيذ أوامر عن بُعد (Authenticated RCE).",
+                "whatIsIt": "روم مجانية سريعة وممتعة بتفحص فيها موقع شغال بنظام Bolt CMS، تلاقي يوزر وباسورد، وتدخل لوحة التحكم وتستغل ثغرة رفع ملفات/تنفيذ أوامر عشان تسيطر على السيرفر.",
+                "learningBenefit": "فهم كيفية تتبع الجلسات المصادق عليها واستغلال ثغرات ما بعد تسجيل الدخول.",
+                "skillGained": "الربط بين استطلاع الويب وتحليل الطلبات والوصول إلى الشيل النهائي.",
+                "projectBenefit": "تطبيق عملي ممتاز يمهد للانتقال من قسم الويب إلى ساحات القتال الكاملة في المرحلة 11."
+          }
     ],
     writeup: {
       title: 'استغلال وتعديل طلبات الويب المتقدمة عبر Burp Suite Repeater & Intruder',
@@ -1881,8 +2188,39 @@ Content-Type: application/json
       }
     ],
     tryHackMeRooms: [
-      { name: 'Jr Penetration Tester Official Path', url: 'https://tryhackme.com/r/path/outline/jrpenetrationtester', difficulty: 'Structured Path', whyMatters: 'المسار التدريبي الأكثر شمولاً وتكاملاً للبدء الاحترافي في الريد تيم.' },
-      { name: 'Vulnerability Research Lab', url: 'https://tryhackme.com/r/room/vulnerabilityresearch', difficulty: 'Easy', whyMatters: 'كيفية البحث في قواعد ثغرات Exploit-DB ومطابقة الـ CVEs.' }
+          {
+                "name": "Vulnversity (محاكاة اختراق سيرفر جامعة بالكامل)",
+                "platform": "TryHackMe (مجانية 100%)",
+                "url": "https://tryhackme.com/room/vulnversity",
+                "difficulty": "Easy — مجانية",
+                "whyMatters": "أفضل روم مجانية على الإطلاق لتطبيق دورة الاختراق الكاملة: Nmap -> Gobuster -> Burp File Upload Bypass -> Reverse Shell -> SUID PrivEsc.",
+                "whatIsIt": "روم أسطورية مجانية بتمشيك بالترتيب في اختراق موقع جامعة: تفحص البورتات بـ Nmap، تطلع صفحة رفع ملفات بـ Gobuster، تلاقي الموقع رافض يرفع `.php` فتستخدم Burp Suite لتجربة امتداد `.phtml` وتاخد شيل وتترقى لـ root!",
+                "learningBenefit": "ربط كل الأدوات اللي اتعلمتها في المراحل من 1 لـ 10 في سيناريو واحد متسلسل ومنطقي.",
+                "skillGained": "إتقان تجاوز فلاتر رفع الملفات (File Upload Bypass) واستقبال Reverse Shell عبر Netcat.",
+                "projectBenefit": "تمثل نموذجاً مثالياً للـ Kill-Chain المصغر في المرحلة 11 من مشروع التخرج."
+          },
+          {
+                "name": "Basic Pentesting (اختبار الاختراق التأسيسي الشامل)",
+                "platform": "TryHackMe (مجانية 100%)",
+                "url": "https://tryhackme.com/room/basicpentestingjt",
+                "difficulty": "Easy — مجانية",
+                "whyMatters": "معمل مجاني يدمج بين فحص الويب، استطلاع SMB بـ enum4linux، كسر كلمات السر بـ Hydra، وكسر مفاتيح SSH بـ John the Ripper.",
+                "whatIsIt": "ماكينة مجانية بتختبر شطارتك في جمع الخيوط ببعض: تلاقي ملاحظة سرية في الموقع، تستخدم `enum4linux` عشان تعرف أسماء الموظفين، تخمن الباسورد بـ Hydra، وتدخل تسحب مفتاح SSH خاص وتفك تشفيره!",
+                "learningBenefit": "التدريب على التفكير المنهجي في الـ Enumeration وكيفية الانتقال من مستخدم عادي إلى مستخدم بصلاحيات أعلى.",
+                "skillGained": "احتراف استخدام `ssh2john` و `John the Ripper` و `enum4linux` في سيناريو حقيقي.",
+                "projectBenefit": "تعكس الروح التطبيقية لساحات القتال العملي في مشروع التخرج."
+          },
+          {
+                "name": "Pickle Rick CTF (تحدي اختراق الويب واللينكس)",
+                "platform": "TryHackMe (مجانية 100%)",
+                "url": "https://tryhackme.com/room/picklerick",
+                "difficulty": "Easy — مجانية",
+                "whyMatters": "تحدي CTF مجاني ممتع يختبر قدرتك على فحص الكود المصدري، اكتشاف لوحة الأوامر، وتجاوز القيود لقراءة ملفات النظام.",
+                "whatIsIt": "تحدي مجاني من غير إرشادات مباشرة عشان تختبر نفسك لوحدك؛ بتلاقي موقع فيه صفحة تنفيذ أوامر بس مانع أوامر معينة زي `cat`، فتفكر بذكاء وتستخدم أوامر بديلة زي `less` أو `nl` وتوصل لصلاحيات `sudo` الكاملة.",
+                "learningBenefit": "تنمية مهارة تجاوز القيود البرمجية (Command Blacklist Bypass) والبحث الذاتي.",
+                "skillGained": "الثقة في النفس والقدرة على حل ماكينات CTF بدون مساعدة.",
+                "projectBenefit": "تضيف طابع الـ Gamification والتحدي التطبيقي الموجود في فلسفة منصة CyberForge."
+          }
     ],
     writeup: {
       title: 'حل تحدي مسار التدريب العملي المتقدم (TryHackMe Jr Pentester Walkthrough)',
@@ -2048,8 +2386,39 @@ uid=1001(www-data) gid=1001(www-data) groups=1001(www-data)`,
       }
     ],
     tryHackMeRooms: [
-      { name: 'What The Shell? (Intro to Shells)', url: 'https://tryhackme.com/r/room/introtoshells', difficulty: 'Medium', whyMatters: 'الدليل الأكثر شمولاً لأنواع الشيلات: Reverse Shells, Bind Shells, Web Shells.' },
-      { name: 'CC: Pen Testing Review', url: 'https://tryhackme.com/r/room/ccpentesting', difficulty: 'Medium', whyMatters: 'مراجعة عملية شاملة لجميع أدوات الاختراق والتثبيت قبل البدء في HTB.' }
+          {
+                "name": "Kenobi (اختراق خدمات Samba و ProFTPD و NFS)",
+                "platform": "TryHackMe (مجانية 100%)",
+                "url": "https://tryhackme.com/room/kenobi",
+                "difficulty": "Easy — مجانية",
+                "whyMatters": "معمل مجاني رائع يحاكي منهجية Hack The Box: استغلال أخطاء إعداد Samba و ProFTPD `SITE CPFR/CPTO` وتركيب NFS وتصعيد الصلاحيات عبر PATH Variable.",
+                "whatIsIt": "ماكينة مجانية غنية جداً بالتفاصيل؛ بتلاقي فيها خدمة FTP قديمة بتسمح لك تنسخ مفتاح الـ SSH بتاع اليوزر لفولدر مشاركة NFS، فتركب الفولدر عندك وتاخد المفتاح وتدخل، وبعدين تستغل برنامج SUID عشان تبقى root!",
+                "learningBenefit": "تعلم كيفية الدمج بين ثغرتين في خدمتين مختلفتين (ProFTPD + NFS) للوصول لهدفك، plus فهم ثغرة PATH Variable Manipulation.",
+                "skillGained": "مهارة التفكير خارج الصندوق (Chaining Vulnerabilities) وهي أهم مهارة في ماكينات HTB و OSCP.",
+                "projectBenefit": "تطابق سيناريوهات الاختراق المركبة في المرحلة 12 من المشروع."
+          },
+          {
+                "name": "Mr Robot CTF (تحدي الاختراق الشهير ذو الثلاث مراحل)",
+                "platform": "TryHackMe (مجانية 100%)",
+                "url": "https://tryhackme.com/room/mrrobot",
+                "difficulty": "Medium — مجانية",
+                "whyMatters": "واحدة من أشهر الماكينات المجانية المستوحاة من مسلسل Mr. Robot؛ تحاكي ماكينات OSCP و HTB الكاملة من الصفر حتى root.",
+                "whatIsIt": "ماكينة كاملة مجانية مطلوبا فيها تطلع 3 مفاتيح: الأول من فحص ملف `robots.txt`، والتاني بعد ما تخترق موقع WordPress وترفع Reverse Shell وتكسر هاش MD5، والتالت بعد ما تستغل SUID في أداة `nmap` القديمة!",
+                "learningBenefit": "التدريب الكامل على اختراق مواقع WordPress (`wpscan`)، تثبيت الشيل التفاعلي، واستغلال GTFOBins.",
+                "skillGained": "القدرة على إدارة عملية اختراق طويلة متعددة المراحل دون فقدان التركيز.",
+                "projectBenefit": "مثال رائع لعرضه في مناقشة مشروع التخرج كدراسة حالة على اختراق الأنظمة المتكاملة."
+          },
+          {
+                "name": "Ignite (استغلال ثغرات RCE في أنظمة إدارة المحتوى)",
+                "platform": "TryHackMe (مجانية 100%)",
+                "url": "https://tryhackme.com/room/ignite",
+                "difficulty": "Easy — مجانية",
+                "whyMatters": "معمل مجاني لتطبيق البحث عن أكواد الاستغلال (Searchsploit / Exploit-DB) وتعديلها لأخذ شيل وسحب بيانات قاعدة البيانات.",
+                "whatIsIt": "ماكينة مجانية عليها نظام إدارة محتوى اسمه Fuel CMS؛ بتدور على إصداره في Exploit-DB، تنزل كود الاستغلال بـ Python، تشغله تاخد شيل، وتفتش في ملفات إعدادات الموقع لحد ما تلاقي باسورد الـ root المكتوب جوه الكود!",
+                "learningBenefit": "إتقان البحث عن الثغرات المنشورة (CVEs) وقراءة ملفات الإعدادات الحساسة (`database.php`) بعد الحصول على شيل.",
+                "skillGained": "سرعة استغلال الثغرات المعروفة والبحث عن كلمات السر المخزنة في ملفات السيرفر.",
+                "projectBenefit": "تدعم منهجية البحث عن الـ Exploits وما بعد الاستغلال المشروحة في المرحلة 12."
+          }
     ],
     writeup: {
       title: 'منهجية حل ماكينات Hack The Box المفتوحة وتصعيد الصلاحيات (HTB Machine Walkthrough Methodology)',
@@ -2212,8 +2581,39 @@ MSSQLSvc/sql01.corp   sqlservice Domain Admins
       }
     ],
     tryHackMeRooms: [
-      { name: 'Active Directory Basics', url: 'https://tryhackme.com/r/room/activedirectorybasics', difficulty: 'Medium', whyMatters: 'شرح مفهوم الغابات والمجالات ومتحكم النطاق والـ OUs.' },
-      { name: 'Attacking Kerberos', url: 'https://tryhackme.com/r/room/attackingkerberos', difficulty: 'Hard', whyMatters: 'لابات عملية على هجمات Roasting وتذاكر Golden و Silver.' }
+          {
+                "name": "Attacktive Directory (اختراق بيئة Active Directory بالكامل)",
+                "platform": "TryHackMe (مجانية 100%)",
+                "url": "https://tryhackme.com/room/attacktivedirectory",
+                "difficulty": "Medium — مجانية",
+                "whyMatters": "أشهر وأهم روم مجانية في العالم لاختراق Active Directory: تغطي Kerbrute و AS-REP Roasting و Hashcat و Impacket Secretsdump و Pass-the-Hash.",
+                "whatIsIt": "99% من الشركات والبنوك شغالة بـ Active Directory؛ الروم المجانية دي بتشغل لك Domain Controller حقيقي وبتخليك تخترقه خطوة بخطوة: تطلع اليوزرات بـ Kerbrute، تسرق تذكرة حساب مصاب بـ AS-REP Roasting، تكسر الهاش بـ Hashcat، وتدخل تسحب كل هاشات الدومين بـ `secretsdump.py`!",
+                "learningBenefit": "فهم عملي كامل لبروتوكول Kerberos، وكيف تحدث ثغرة عدم طلب المصادقة المسبقة (Do not require Kerberos preauthentication)، وكيف يعمل هجوم DCSync.",
+                "skillGained": "القدرة على استخدام حزمة أدوات Impacket و Kerbrute و Evil-WinRM للسيطرة على شبكات الشركات.",
+                "projectBenefit": "مطابقة حرفياً للرايت أب والخطوات العملية في المرحلة 13 من مشروع التخرج، وهي من أقوى النقاط التي تبهر لجان المناقشة."
+          },
+          {
+                "name": "VulnNet: Active (اختراق دومين شركة من SMB إلى Domain Admin)",
+                "platform": "TryHackMe (مجانية 100%)",
+                "url": "https://tryhackme.com/room/vulnnetactive",
+                "difficulty": "Medium — مجانية",
+                "whyMatters": "سيناريو واقعي مجاني لاختراق دومين ويندوز عبر Redis و SMB والتقاط هاشات NTLMv2 بـ Responder وتصعيد الصلاحيات عبر GPO.",
+                "whatIsIt": "ماكينة دومين ويندوز مجانية بتعيشك جو شركة حقيقية؛ بتستغل خدمة Redis و SMB عشان تجبر السيرفر يبعت لك الـ NTLMv2 Hash بتاعه، تكسره، وبعدين تستغل صلاحية خاطئة في Group Policy Object (GPO) عشان تخلي نفسك Domain Admin!",
+                "learningBenefit": "تعلم هجمات سرقة هاشات الشبكة واستغلال سياسات المجموعات (GPO Abuse) في Active Directory.",
+                "skillGained": "احتراف التعامل مع صلاحيات الدومين المعقدة ورسم مسارات الهجوم.",
+                "projectBenefit": "تثري قسم Active Directory في المشروع بسيناريو واقعي متقدم ومجاني بالكامل."
+          },
+          {
+                "name": "Ra — Enterprise Domain Controller Challenge (تحدي دومين متقدم)",
+                "platform": "TryHackMe (مجانية 100%)",
+                "url": "https://tryhackme.com/room/ra",
+                "difficulty": "Hard — مجانية",
+                "whyMatters": "تحدي Active Directory مجاني متقدم يختبر مهاراتك في اختراق خدمات الدومين وسحب الشهادات والسيطرة على النظام.",
+                "whatIsIt": "ماكينة ويندوز دومين كبيرة ومجانية مصممة للي خلصوا الأساسيات وعاوزين يختبروا نفسهم في بيئة شركة معقدة فيها سيرفر محادثات ومشاركة ملفات وحسابات متعددة.",
+                "learningBenefit": "التعمق في استطلاع بيئات ويندوز الكبيرة والربط بين ثغرات التطبيقات وثغرات الدومين.",
+                "skillGained": "جاهزية كاملة لاختبارات الشهادات الاحترافية مثل OSCP و CRTO في جزء الـ Active Directory.",
+                "projectBenefit": "تبرهن على أن مشروع التخرج يغطي المستويات المتقدمة والخبيرة بجانب التأسيس."
+          }
     ],
     writeup: {
       title: 'هجمات كيربيروس واستغلال حسابات الخدمة (AS-REP Roasting & Kerberoasting Case Study)',
@@ -2369,8 +2769,39 @@ SeAssignPrimaryTokenPrivilege Replace a process level token              Disable
       }
     ],
     tryHackMeRooms: [
-      { name: 'Windows PrivEsc Lab', url: 'https://tryhackme.com/r/room/winprivesc', difficulty: 'Medium', whyMatters: 'معمل تطبيقي شامل على جميع مسارات تصعيد الصلاحيات في ويندوز.' },
-      { name: 'Blue (EternalBlue MS17-010)', url: 'https://tryhackme.com/r/room/blue', difficulty: 'Easy', whyMatters: 'استغلال ثغرة SMB الكلاسيكية للحصول على صلاحيات SYSTEM مباشرة.' }
+          {
+                "name": "Windows PrivEsc (المعمل الكامل لتصعيد الصلاحيات في ويندوز)",
+                "platform": "TryHackMe (مجانية 100%)",
+                "url": "https://tryhackme.com/room/windows10privesc",
+                "difficulty": "Medium — مجانية",
+                "whyMatters": "أقوى معمل مجاني لتصعيد صلاحيات ويندوز: يحتوي على ماكينة ويندوز جاهزة لتطبيق أكثر من 10 طرق للتصعيد إلى SYSTEM.",
+                "whatIsIt": "روم مجانية ذهبية عاملها Tib3rius؛ بتديك يوزر عادي على ويندوز وجواها تمارين عملية على كل ثغرات التصعيد: Services بصلاحيات ضعيفة، Unquoted Service Paths، Registry AutoRuns، AlwaysInstallElevated، و Token Impersonation وأداة WinPEAS!",
+                "learningBenefit": "فهم كيف تعمل خدمات ويندوز (Windows Services) وسجل النظام (Registry) وتوكنات الصلاحيات وكيف يخطئ مديرو الأنظمة في إعدادها.",
+                "skillGained": "القدرة على تحويل أي شيل محدود على ويندوز إلى صلاحية `NT AUTHORITY\\SYSTEM` الكاملة في دقائق.",
+                "projectBenefit": "تغطي 100% من محتوى المرحلة 14 في مشروع التخرج وتمنحك تطبيقاً عملياً لكل أمر مذكور فيها."
+          },
+          {
+                "name": "Blue — EternalBlue MS17-010 & Mimikatz (اختراق ويندوز وسحب الهاشات)",
+                "platform": "TryHackMe (مجانية 100%)",
+                "url": "https://tryhackme.com/room/blue",
+                "difficulty": "Easy — مجانية",
+                "whyMatters": "معمل مجاني لتجربة أشهر ثغرة في تاريخ ويندوز (MS17-010)، ترحيل العمليات (Process Migration)، وتشغيل Mimikatz لسحب هاشات NTLM.",
+                "whatIsIt": "ماكينة ويندوز مجانية مصابة بثغرة EternalBlue الشهيرة؛ بتخترقها وتفتح جلسة Meterpreter، تنقل عمليتك لعملية شغالة بـ SYSTEM (`migrate`)، وتشغل `hashdump` و `kiwi/mimikatz` عشان تطلع باسوردات الويندوز من الذاكرة!",
+                "learningBenefit": "فهم استغلال ثغرات نواة ويندوز وبروتوكول SMBv1 وكيفية استخراج الهاشات من عملية LSASS.",
+                "skillGained": "إتقان أوامر ما بعد الاستغلال على ويندوز وكسر هاشات NTLM.",
+                "projectBenefit": "ترتبط مباشرة بدراسة الحالة والـ Practical Steps في المحطة 14 من المشروع."
+          },
+          {
+                "name": "Ice & Blaster (استغلال خدمات ويندوز وتصعيد الصلاحيات)",
+                "platform": "TryHackMe (مجانية 100%)",
+                "url": "https://tryhackme.com/room/ice",
+                "difficulty": "Easy — مجانية",
+                "whyMatters": "تطبيق عملي مجاني لاختراق خدمة بث صوتي على ويندوز، وتصعيد الصلاحيات عبر `getsystem` و UAC Bypass، واستخراج كلمات السر الواضحة بـ Mimikatz.",
+                "whatIsIt": "ماكينة ويندوز مجانية بتدربك إزاي لما تاخد شيل بيوزر عادي تشغل أداة الفحص الآلي (`local_exploit_suggester`) عشان تلاقي ثغرة ترفع بيها صلاحيتك لـ SYSTEM وتقرأ الباسوردات.",
+                "learningBenefit": "التعرف على آلية عمل User Account Control (UAC) وكيفية تجاوزها وفحص ثغرات النظام المحلي.",
+                "skillGained": "سرعة الفحص الآلي لثغرات تصعيد الصلاحيات في ويندوز.",
+                "projectBenefit": "تعزز الجانب التطبيقي لقسم Windows Privilege Escalation داخل المنصة."
+          }
     ],
     writeup: {
       title: 'تصعيد الصلاحيات في ويندوز عبر انتحال الرموز ومسارات الخدمات (Windows Local Privilege Escalation)',
@@ -2526,8 +2957,39 @@ User student may run the following commands on victim-box:
       }
     ],
     tryHackMeRooms: [
-      { name: 'Linux PrivEsc Lab', url: 'https://tryhackme.com/r/room/linprivesc', difficulty: 'Medium', whyMatters: 'المعمل التطبيقي القياسي لتعلم تصعيد الصلاحيات في لينكس.' },
-      { name: 'Common Linux Privesc', url: 'https://tryhackme.com/r/room/commonlinuxprivesc', difficulty: 'Easy', whyMatters: 'تمارين موجهة على SUID و Sudo و Crontab.' }
+          {
+                "name": "Linux PrivEsc (المعمل الشامل لتصعيد الصلاحيات في لينكس)",
+                "platform": "TryHackMe (مجانية 100%)",
+                "url": "https://tryhackme.com/room/linuxprivesc",
+                "difficulty": "Medium — مجانية",
+                "whyMatters": "معمل مجاني متكامل يحتوي على أكثر من 10 مهام عملية لتصعيد الصلاحيات إلى root: Sudo، SUID، Capabilities، Cron Jobs، PATH، و NFS.",
+                "whatIsIt": "النسخة اللينكس المجانية من معمل Tib3rius الشهير! بتدخل على سيرفر لينكس بيوزر عادي وبتجرب بإيدك 10 طرق مختلفة عشان تبقى `root`، من أول `sudo -l` و GTFOBins لحد مهام الـ Cron وملفات `/etc/passwd` القابلة للكتابة.",
+                "learningBenefit": "هضم كل مسارات تصعيد الصلاحيات في أنظمة لينكس وفهم سبب حدوث كل ثغرة وكيفية إغلاقها.",
+                "skillGained": "لن تقف عاجزاً أمام أي شيل محدود (`www-data`) على لينكس بعد إنهاء هذه الروم.",
+                "projectBenefit": "تتطابق حرفياً مع خطوات المرحلة 15 في مشروع التخرج وتطبيقات GTFOBins و Capabilities."
+          },
+          {
+                "name": "Linux Privilege Escalation (المنهج التفصيلي للتصعيد في لينكس)",
+                "platform": "TryHackMe (مجانية 100%)",
+                "url": "https://tryhackme.com/room/linprivesc",
+                "difficulty": "Medium — مجانية",
+                "whyMatters": "روم مجانية حديثة تغطي استغلال Kernel Exploits، Sudo، SUID، Capabilities، Cron، و Python Library Hijacking.",
+                "whatIsIt": "روم تعليمية وتطبيقية مجانية ممتازة بتاخدك في جولة عميقة جداً جوه لينكس، وبتعلمك حتى إزاي تستغل مكتبات البايثون والـ Shared Objects (`LD_PRELOAD`) عشان تاخد صلاحية root.",
+                "learningBenefit": "فهم آليات عمل الـ Dynamic Linker في لينكس وقدرات النواة (`cap_setuid`) وأدوات الفحص الآلي مثل LinPEAS.",
+                "skillGained": "مهارة متقدمة في اكتشاف الثغرات الخفية في السكربتات والمكتبات البرمجية على لينكس.",
+                "projectBenefit": "تدعم الرايت أب الخاص بـ Python `cap_setuid` المشروح في المرحلة 15 من المشروع."
+          },
+          {
+                "name": "Linux PrivEsc Arena (ساحة التطبيق الحر لتصعيد صلاحيات لينكس)",
+                "platform": "TryHackMe (مجانية 100%)",
+                "url": "https://tryhackme.com/room/linuxprivescarena",
+                "difficulty": "Medium — مجانية",
+                "whyMatters": "معمل تطبيقي مجاني مفتوح للتدريب السريع على استغلال ثغرات التصعيد في لينكس على ماكينة حقيقية.",
+                "whatIsIt": "ساحة قتال عملية مجانية بتفتح لك سيرفر مليان ثغرات تصعيد صلاحيات عشان تطبق عليه بسرعة وتثبت المعلومة في دماغك.",
+                "learningBenefit": "تحويل المعرفة النظرية إلى ذاكرة عضلية سريعة (Muscle Memory) أثناء الاختبارات العملية.",
+                "skillGained": "السرعة والدقة في تنفيذ أوامر التصعيد تحت ضغط الوقت.",
+                "projectBenefit": "توفر معمل تدريب ثالث مجاني ومفتوح لطلاب المرحلة 15 في المنصة."
+          }
     ],
     writeup: {
       title: 'تصعيد الصلاحيات في لينكس عبر قدرات النواة وتجاوز قيود Sudo (Linux PrivEsc Case Study)',
@@ -2688,8 +3150,39 @@ User student may run the following commands on victim-box:
       }
     ],
     tryHackMeRooms: [
-      { name: 'Post-Exploitation Basics', url: 'https://tryhackme.com/r/room/postexploitation', difficulty: 'Medium', whyMatters: 'أساسيات ما بعد الاختراق وتثبيت الصلاحيات وجمع البيانات.' },
-      { name: 'Wreath Network (Real Pivoting Lab)', url: 'https://tryhackme.com/r/room/wreath', difficulty: 'Hard', whyMatters: 'شبكة واقعية كاملة لتعلم الـ Pivoting و C2 و AV Evasion.' }
+          {
+                "name": "Post-Exploitation Basics (أساسيات ما بعد الاختراق والـ Red Teaming)",
+                "platform": "TryHackMe (مجانية 100%)",
+                "url": "https://tryhackme.com/room/postexploit",
+                "difficulty": "Easy to Medium — مجانية",
+                "whyMatters": "روم مجانية ممتازة للتدريب على أدوات الريد تيم بعد الاختراق: PowerView، BloodHound، Mimikatz، Golden Ticket، والانتقال الأفقي.",
+                "whatIsIt": "بعد ما تخترق أول جهاز في الشركة بتعمل إيه؟ الروم المجانية دي بتعلمك إزاي تستخدم BloodHound عشان ترسم خريطة للشبكة الداخلية، وتستخدم PowerView، وتثبت وجودك (Persistence) وتتحرك لباقي الأجهزة!",
+                "learningBenefit": "فهم منهجية ما بعد الاستغلال (Post-Exploitation) وكيف يكتشف الريد تيم مسارات الوصول للأصول الحساسة.",
+                "skillGained": "إتقان تشغيل Sharphound/BloodHound وتحليل الرسوم البيانية للدومين.",
+                "projectBenefit": "تخدم المرحلة 16 مباشرة في شرح عمليات الريد تيم المتقدمة بعد الحصول على موطئ قدم."
+          },
+          {
+                "name": "Overpass 3 — Hosting (التنقل الشبكي والـ SSH Tunneling & Pivoting)",
+                "platform": "TryHackMe (مجانية 100%)",
+                "url": "https://tryhackme.com/room/overpass3hosting",
+                "difficulty": "Medium — مجانية",
+                "whyMatters": "معمل مجاني واقعي يتطلب استخدام أنفاق SSH Port Forwarding / Chisel للوصول إلى خدمات داخلية معزولة لا تظهر من الخارج.",
+                "whatIsIt": "بما إن روم Wreath أصبحت للمشتركين، الروم دي مجانية 100% وبتعلمك الـ Pivoting عملياً! بتخترق سيرفر ويب، ولما تدخل جواه تكتشف إن فيه خدمة داخلية شغالة على `127.0.0.1` مش باينة من بره، فتعمل نفق (Tunnel / Port Forward) عشان توصل لها من جهازك وتكمل الاختراق!",
+                "learningBenefit": "التطبيق الفعلي لمفهوم تمرير المنافذ (Local & Dynamic Port Forwarding) والتنقل الشبكي.",
+                "skillGained": "القدرة على فتح أنفاق شبكية عبر SSH أو Chisel للوصول للشبكات والخدمات المعزولة.",
+                "projectBenefit": "تطبيق عملي حي ومجاني لمهارة الـ Pivoting المشروحة في المرحلة 16 من مشروع التخرج."
+          },
+          {
+                "name": "Internal — Jenkins to Root & Internal Pivoting (اختراق الشبكات الداخلية)",
+                "platform": "TryHackMe (مجانية 100%)",
+                "url": "https://tryhackme.com/room/internal",
+                "difficulty": "Hard — مجانية",
+                "whyMatters": "تحدي ريد تيم مجاني متكامل يربط بين اختراق تطبيق ويب، القفز إلى خدمة Jenkins داخلية معزولة عبر Port Forwarding، والوصول للـ Host.",
+                "whatIsIt": "ماكينة مجانية قوية جداً بتحاكي بيئة شركة حقيقية: بتخترق السيرفر الأول، تلاقي جواه خدمة Jenkins معزولة على شبكة داخلية (Docker/Internal IP)، تعمل لها Port Forwarding، تخترق Jenkins، وتطلع منه للسيرفر الرئيسي!",
+                "learningBenefit": "ربط مهارات الـ Pivoting مع اختراق بيئات التطوير الداخلية (CI/CD Jenkins) والحاويات.",
+                "skillGained": "خبرة حقيقية في التعامل مع الشبكات متعددة الطبقات كما في الواقع العملي.",
+                "projectBenefit": "تربط بين المرحلة 16 (Pivoting) والمرحلة 19 (Containers) والمرحلة 20 (Jenkins Kill-Chain) في المشروع!"
+          }
     ],
     writeup: {
       title: 'عمليات الريد تيم والتنقل الشبكي متعدد القفزات عبر Chisel وزرع أطر C2 ببروتوكول mTLS',
@@ -2835,7 +3328,39 @@ NVD Standards Compliant: YES`,
       }
     ],
     tryHackMeRooms: [
-      { name: 'Vulnerability Management', url: 'https://tryhackme.com/r/room/vulnerabilitymanagement', difficulty: 'Easy', whyMatters: 'فهم دورة إدارة الثغرات وتصنيف المخاطر وتحديد أولويات المعالجة.' }
+          {
+                "name": "Vulnerabilities 101 (تصنيف وتقييم الثغرات ومعيار CVSS)",
+                "platform": "TryHackMe (مجانية 100%)",
+                "url": "https://tryhackme.com/room/vulnerabilities101",
+                "difficulty": "Easy — مجانية",
+                "whyMatters": "روم مجانية تشرح دورة إدارة الثغرات، قواعد بيانات NVD و CVE، وكيفية تقييم خطورة الثغرات باستخدام CVSS.",
+                "whatIsIt": "روم مجانية ممتازة بتشرح لك إزاي العالم بيصنف الثغرات الأمنية، يعني إيه رقم CVE، وإزاي بنحسب درجة خطورة الثغرة من 0 لـ 10 باستخدام مقاييس CVSS وقواعد بيانات الثغرات العالمية.",
+                "learningBenefit": "فهم الفرق بين Vulnerability Scoring (CVSS) و Prediction Scoring (EPSS) وكيف تحدد الشركات أولويات الإصلاح.",
+                "skillGained": "القدرة على البحث في قواعد بيانات الثغرات وتحديد درجة الخطورة بدقة علمية.",
+                "projectBenefit": "تدعم المرحلة 17 وحاسبة الـ CVSS المدمجة داخل منصة مشروع التخرج."
+          },
+          {
+                "name": "Nessus Vulnerability Scanner (الفحص الاحترافي وتقييم المخاطر)",
+                "platform": "TryHackMe (مجانية 100%)",
+                "url": "https://tryhackme.com/room/rpnessusredux",
+                "difficulty": "Easy — مجانية",
+                "whyMatters": "تدريب عملي مجاني على أشهر ماسح ثغرات في العالم (Nessus) وكيفية قراءة وتصنيف الثغرات الحرجة والعالية والمتوسطة.",
+                "whatIsIt": "روم مجانية بتعلمك إزاي تسطب وتشغل أداة Nessus اللي بتستخدمها كل شركات الأمن السيبراني، وإزاي تعمل فحص لشبكة أو موقع وتقرأ التقرير اللي بيطلع درجات الـ CVSS لكل ثغرة.",
+                "learningBenefit": "إتقان إعداد سياسات الفحص الآلي (Scan Policies) وتنقية النتائج من الإيجابيات الكاذبة (False Positives).",
+                "skillGained": "خبرة عملية في استخدام الأداة رقم 1 في وظائف Vulnerability Management.",
+                "projectBenefit": "تربط بين التقييم الرياضي بـ CVSS والفحص المؤسسي الفعلي في المرحلة 17."
+          },
+          {
+                "name": "FIRST Official CVSS v3.1 & v4.0 Calculator (التطبيق العملي لحساب المتجهات)",
+                "platform": "FIRST.org Official (مجانية 100%)",
+                "url": "https://www.first.org/cvss/calculator/3.1",
+                "difficulty": "Practical Tool — مجانية",
+                "whyMatters": "المنصة الرسمية العالمية لحساب درجات CVSS وتوليد سلاسل المتجهات (Vector Strings) المعتمدة في التقارير الدولية.",
+                "whatIsIt": "الأداة الرسمية المجانية من منظمة FIRST اللي بتدخل عليها تختار خصائص الثغرة (هل بتستغل عن بُعد؟ هل محتاجة باسورد؟ إيه تأثيرها على السرية؟) فتطلع لك الدرجة والـ Vector String الرسمي.",
+                "learningBenefit": "التجربة المباشرة لتأثير كل متغير (AV, AC, PR, UI, S, C, I, A) على الدرجة النهائية للثغرة.",
+                "skillGained": "كتابة CVSS Vector Strings احترافية لا يمكن الطعن فيها في أي تقرير أمني.",
+                "projectBenefit": "المرجع القياسي الذي بُنيت عليه حاسبة CVSS التفاعلية داخل مشروعك."
+          }
     ],
     writeup: {
       title: 'تقييم وتصنيف خطورة الثغرات وفق معايير CVSS v3.1 و CVSS v4.0 وصياغة سلاسل المتجهات (Vector Strings)',
@@ -2977,7 +3502,39 @@ Status: Ready for Executive Presentation`,
       }
     ],
     tryHackMeRooms: [
-      { name: 'CC: Pen Testing Report Writing', url: 'https://tryhackme.com/r/room/ccpentesting', difficulty: 'Medium', whyMatters: 'فهم ممارسات التوثيق وتوليد التقارير الفنية المعتمدة.' }
+          {
+                "name": "Relevant — Full Pentest Engagement & Report Challenge (تحدي التقرير الكامل)",
+                "platform": "TryHackMe (مجانية 100%)",
+                "url": "https://tryhackme.com/room/relevant",
+                "difficulty": "Medium — مجانية",
+                "whyMatters": "محاكاة حقيقية لمهمة اختبار اختراق لشركة (Black-Box Engagement) تطلب منك استخراج الأدلة وصياغة تقرير احترافي كامل.",
+                "whatIsIt": "روم مجانية مصممة كأنك شغال في شركة أمن سيبراني وجالك عميل بيقولك: \"اختبر السيرفر ده واكتب لي تقرير اختراق محترم بالثغرات وإثباتها وطريقة ترقيعها\"؛ بتخترق السيرفر بـ مسارين مختلفين وتكتب عنهم تقرير كامل!",
+                "learningBenefit": "التدريب على توثيق كل خطوة أثناء الاختراق (Taking Screenshots, Hashes, Commands) لتحويلها إلى تقرير.",
+                "skillGained": "القدرة على تسليم تقرير اختبار اختراق متكامل يرضي كلاً من الإدارة العليا والمطورين.",
+                "projectBenefit": "أفضل تمرين عملي لتجربة أداة \"مولد التقارير (Pentest Report Builder)\" الموجودة في المرحلة 18 من مشروعك!"
+          },
+          {
+                "name": "Tomghost — CVE-2020-1938 PoC & Remediation (توثيق الثغرات والترقيع)",
+                "platform": "TryHackMe (مجانية 100%)",
+                "url": "https://tryhackme.com/room/tomghost",
+                "difficulty": "Easy — مجانية",
+                "whyMatters": "معمل مجاني لاستغلال ثغرة Ghostcat الشهيرة في Apache Tomcat وتوثيق خطوات إعادة الإنتاج (Steps to Reproduce) والحل الجذري.",
+                "whatIsIt": "ماكينة مجانية بتستغل فيها ثغرة مشهورة جداً رقمها CVE-2020-1938 عشان تقرأ ملفات حساسة من جوه سيرفر Tomcat، ومطلوب منك تفهم إزاي توثق الثغرة دي كـ PoC واضح للمبرمجين عشان يقفلوا بورت AJP 8009.",
+                "learningBenefit": "تعلم كيفية ربط رقم الـ CVE الرسمي بخطوات الإثبات البرمجية وتوصية الإغلاق المحددة.",
+                "skillGained": "مهارة كتابة قسم الـ Technical Findings والـ Remediation بدقة عالية.",
+                "projectBenefit": "نموذج عملي رائع لكيفية توثيق ثغرة حقيقية داخل تقرير مشروع التخرج."
+          },
+          {
+                "name": "Agent T — Backdoor Discovery & Incident Report (تقرير فحص الأبواب الخلفية)",
+                "platform": "TryHackMe (مجانية 100%)",
+                "url": "https://tryhackme.com/room/agentt",
+                "difficulty": "Easy — مجانية",
+                "whyMatters": "معمل مجاني سريع لاكتشاف نسخة PHP مصابة بباب خلفي (Backdoor) في الترويسات وتوثيق الأثر الحرج وطريقة التحديث.",
+                "whatIsIt": "سيرفر مجاني عليه نسخة PHP 8.1.0-dev كان فيها Backdoor خطير في الـ User-Agentt Header بيديك صلاحية root فوراً؛ الروم ممتازة عشان تاخد منها لقطات شاشة سريعة وتجرب تطلع بيها تقرير PDF/Markdown من موقع مشروعك!",
+                "learningBenefit": "فهم ثغرات سلاسل الإمداد البرمجية (Supply Chain Backdoors) وكيف يتم تصنيفها كخطر حرج (Critical 9.8).",
+                "skillGained": "إعداد تقرير سريع ومقنع لثغرة حرجة في أقل من 15 دقيقة.",
+                "projectBenefit": "توفر لك حالة دراسية سريعة ومباشرة لاستعراض مولد التقارير أمام لجنة المناقشة."
+          }
     ],
     writeup: {
       title: 'كتابة تقارير اختبار الاختراق الاحترافية المعتمدة وتوثيق الأدلة الجنائية وحلول الترقيع البرمجية',
@@ -3223,10 +3780,39 @@ IAM (Identity and Access Management) هو قلب أمان AWS:
       }
     ],
     tryHackMeRooms: [
-      { name: 'Cloud Fundamentals', url: 'https://tryhackme.com/r/room/introtocloudcomputing', difficulty: 'Easy', whyMatters: 'أساسيات المفاهيم السحابية اللي لازم تفهمها قبل ما تبدأ تختبر.' },
-      { name: 'Intro to Docker', url: 'https://tryhackme.com/r/room/introtodockerk8pdqk', difficulty: 'Easy', whyMatters: 'فهم Docker containers من الداخل — ضروري قبل ما تحاول تهرب منها.' },
-      { name: 'Attacking and Defending AWS', url: 'https://tryhackme.com/r/room/introtocloudcomputing', difficulty: 'Medium', whyMatters: 'سيناريوهات عملية لهجمات واختبارات أمان على بيئة AWS.' },
-      { name: 'Container Vulnerabilities', url: 'https://tryhackme.com/r/room/dvwa', difficulty: 'Medium', whyMatters: 'سيناريوهات عملية للهروب من Docker containers بطرق متعددة.' }
+          {
+                "name": "Intro to Docker & Containers (أساسيات وأمان حاويات Docker)",
+                "platform": "TryHackMe (مجانية 100%)",
+                "url": "https://tryhackme.com/room/introtodockerk8pdqk",
+                "difficulty": "Easy — مجانية",
+                "whyMatters": "المدخل العملي المجاني لفهم كيفية عمل حاويات Docker والصور (Images) وكيف يتم تشغيلها وفحصها أمنياً.",
+                "whatIsIt": "روم مجانية على TryHackMe بتعلمك يعني إيه Container، إيه الفرق بينه وبين الـ Virtual Machine، وإزاي الأوامر بتاعت Docker بتشتغل عشان تفهم إزاي المهاجم بيهرب من الحاوية للسيرفر الأساسي.",
+                "learningBenefit": "إتقان أوامر Docker الأساسية وبنية ملفات `Dockerfile` ومنافذ اتصال `docker.sock`.",
+                "skillGained": "القدرة على استكشاف بيئة الحاويات فور الحصول على شيل داخل Container.",
+                "projectBenefit": "تضع الأساس العملي لقسم أمان الحاويات والهروب منها (Container Breakouts) في المرحلة 19."
+          },
+          {
+                "name": "flAWS.cloud — AWS Cloud Security & IAM/S3 Challenge (اختراق سحابة AWS)",
+                "platform": "flAWS.cloud (مجانية 100% ومفتوحة بالكامل)",
+                "url": "http://flaws.cloud/",
+                "difficulty": "Medium — مجانية",
+                "whyMatters": "أشهر معمل مجاني في العالم لاختبار اختراق سحابة AWS (6 مستويات كاملة): يغطي S3 Buckets، السناب شوتس، EC2 Metadata (IMDS)، و IAM Roles.",
+                "whatIsIt": "معمل أسطوري مجاني 100% شغال أونلاين على سيرفرات AWS حقيقية من غير ما تحتاج تعمل حساب AWS ولا تحط فيزا! عبارة عن 6 مستويات متدرجة بتخترق فيها إعدادات S3 و IAM و EC2 Metadata خطوة بخطوة مع شرح كامل.",
+                "learningBenefit": "التطبيق العملي الحقيقي لأخطاء الإعداد السحابية (Cloud Misconfigurations) وهي السبب الأول لاختراقات السحابة عالمياً.",
+                "skillGained": "احتراف استخدام AWS CLI لفحص S3 Buckets وسحب مفاتيح IAM واستغلال SSRF على `169.254.169.254`.",
+                "projectBenefit": "تطابق حرفياً سيناريو Capital One و CloudGoat المشروحين في المرحلة 19 من مشروع التخرج!"
+          },
+          {
+                "name": "flAWS2.cloud — Attacker & Defender Cloud Path (مسار المهاجم والمدافع السحابي)",
+                "platform": "flAWS2.cloud (مجانية 100% ومفتوحة بالكامل)",
+                "url": "http://flaws2.cloud/",
+                "difficulty": "Medium to Hard — مجانية",
+                "whyMatters": "الجزء الثاني المجاني من تحدي السحابة: يغطي AWS ECS Containers و Lambda Serverless من منظور المهاجم (Red Team) والمدافع (SOC/CloudTrail).",
+                "whatIsIt": "المعمل ده تحفة فنية مجانية لأنه مقسوم نصين: مسار Attacker (تخترق فيه حاويات AWS ECS ودوال Lambda وتسحب الأسرار)، ومسار Defender (تتعلم فيه إزاي تقرأ لوجات AWS CloudTrail وتقفش الهجمة)!",
+                "learningBenefit": "الدمج بين الهجوم السحابي (Cloud Offensive Security) والتحقيق الجنائي السحابي (CloudTrail Log Analysis).",
+                "skillGained": "فهم عميق لأمان Serverless و Containers في AWS من وجهتي نظر الريد تيم والبلو تيم.",
+                "projectBenefit": "تخدم بقوة فلسفة مشروع التخرج في عرض \"الفعل الهجومي\" ومقابله \"طريقة الرصد الدفاعي في CloudTrail\"."
+          }
     ],
     writeup: {
       title: 'CloudGoat AWS IAM Privilege Escalation via Policy Rollback — رايت أب تفصيلي',
@@ -3480,10 +4066,39 @@ AMSI (Antimalware Scan Interface) هو API من Microsoft بيسمح لـ AV/EDR
       }
     ],
     tryHackMeRooms: [
-      { name: 'AV Evasion: Shellcode', url: 'https://tryhackme.com/r/room/avevasionshellcode', difficulty: 'Hard', whyMatters: 'تقنيات عملية لتجاوز Antivirus باستخدام custom shellcode loaders.' },
-      { name: 'Red Team Capstone Challenge', url: 'https://tryhackme.com/r/room/introtoc2', difficulty: 'Hard', whyMatters: 'سيناريو ريد تيم كامل بيختبر كل المهارات من الاستطلاع للـ Exfiltration.' },
-      { name: 'Wreath', url: 'https://tryhackme.com/r/room/dvwa', difficulty: 'Hard', whyMatters: 'بيئة Active Directory كاملة مع EDR — لازم تتجاوز الحماية عشان تنجح.' },
-      { name: 'Throwback', url: 'https://tryhackme.com/r/room/dvwa', difficulty: 'Hard', whyMatters: 'أكبر شبكة تدريب على TryHackMe — بيئة مؤسسية كاملة بـ 7+ machines.' }
+          {
+                "name": "Introduction to Antivirus & Evasion (فهم وتجاوز مكافحات الفيروسات)",
+                "platform": "TryHackMe (مجانية 100%)",
+                "url": "https://tryhackme.com/room/introtoav",
+                "difficulty": "Easy to Medium — مجانية",
+                "whyMatters": "روم مجانية ممتازة تشرح كيف تكتشف برامج الحماية (AV) المالوير والشيلكود (بصمات ثابتة وديناميكية وسلوكية) وكيف يفكر الريد تيم في تجاوزها.",
+                "whatIsIt": "روم مجانية بتفتح لك ماكينة ويندوز وتعلمك إزاي برنامج الانتي فيروس بيشتغل من جوه: يعني إيه Signature Detection، ويعني إيه Heuristic & Dynamic Detection، وإزاي تفحص الـ Payloads بتاعتك وتعدلها.",
+                "learningBenefit": "فهم الأساس العلمي لكشف البرمجيات الخبيثة بالهاش والـ Strings والـ API Calls قبل الانتقال لتقنيات التشفير والمراوغة.",
+                "skillGained": "القدرة على تحليل سبب إمساك الـ AV بالـ Payload الخاص بك وكيفية إخفاء البصمات الثابتة.",
+                "projectBenefit": "تمثل المدخل التطبيقي المباشر لموضوع مراوغة الحماية (AV/EDR Evasion) في المرحلة 20 الختامية."
+          },
+          {
+                "name": "Anonymous — Full Kill-Chain Exploitation (سلسلة القتل الكاملة)",
+                "platform": "TryHackMe (مجانية 100%)",
+                "url": "https://tryhackme.com/room/anonymous",
+                "difficulty": "Medium — مجانية",
+                "whyMatters": "معمل اختراق كامل مجاني يطبق مراحل الـ Kill-Chain من الاستطلاع واستغلال التفاعل بين FTP و SMB إلى زرع شيل وتصعيد الصلاحيات.",
+                "whatIsIt": "ماكينة مجانية متكاملة بتعيشك تجربة اختراق حقيقية من الصفر للنهاية: تفحص الشبكة، تلاقي سكربت بيتنفذ دورياً على سيرفر FTP، تبدله بـ Reverse Shell، تدخل على النظام، وتصعد صلاحيتك لـ root بالكامل.",
+                "learningBenefit": "التدريب على ربط مراحل Cyber Kill Chain السبعة في مهمة عملية واحدة.",
+                "skillGained": "القدرة على استغلال المهام المجدولة المشتركة عبر الشبكة وتحقيق السيطرة التامة.",
+                "projectBenefit": "تطبيق عملي شامل لمفهوم الـ Full Kill-Chain المتوج للمرحلة العشرين في المنصة."
+          },
+          {
+                "name": "GoldenEye — Multi-Stage Adversary Simulation (محاكاة الهجوم متعدد المراحل)",
+                "platform": "TryHackMe (مجانية 100%)",
+                "url": "https://tryhackme.com/room/goldeneye",
+                "difficulty": "Medium to Hard — مجانية",
+                "whyMatters": "تحدي مجاني متقدم يربط بين تحليل الترافيك، كسر خدمات البريد (POP3)، اختراق منصة تدريب داخلية، وتصعيد الصلاحيات إلى root.",
+                "whatIsIt": "واحدة من أمتع الماكينات المجانية المتقدمة؛ مش بتعتمد على ثغرة واحدة جاهزة، بل بتخليك تشتغل زي عضو ريد تيم حقيقي بيجمع معلومات من كود الصفحة، يفحص بورتات غير تقليدية، يخترق إيميلات الموظفين، ويوصل لملفات سرية لحد ما يسيطر على السيرفر بالكامل.",
+                "learningBenefit": "محاكاة واقعية لهجوم متعدد المراحل يتطلب الصبر ودقة الملاحظة والربط بين خدمات الويب والبريد والنظام.",
+                "skillGained": "النضج العملياتي الكامل والقدرة على قيادة مهمة اختبار اختراق معقدة من البداية للنهاية.",
+                "projectBenefit": "مسك الختام للمرحلة 20 (عرش الجراندمستر) في مشروع التخرج لإثبات الجاهزية الميدانية الكاملة."
+          }
     ],
     writeup: {
       title: 'Full Red Team Engagement Writeup — من الصفر للسيطرة الكاملة',
